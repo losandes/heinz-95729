@@ -2,11 +2,11 @@
 
 ## Course Description
 
-In this course, you will learn about software engineering design patterns, and principles for building applications and conversational bots, and for leveraging machine learning and data analytics, through the lens of e-commerce. 
+In this course, you will learn about software engineering design patterns, and principles for building applications and conversational bots, and for leveraging machine learning and data analytics, through the lens of e-commerce.
 
-To explore these topics, you will apply what you are learning, choosing from an array of team and solo projects that cover third-party integration, user experience (UX), servers and APIs, data querying and analytics, machine learning, conversational bots, and user engagement. 
+To explore these topics, you will apply what you are learning, choosing from an array of team and solo projects that cover third-party integration, user experience (UX), servers and APIs, data querying and analytics, machine learning, conversational bots, and user engagement.
 
-In order to participate in this course, you need a laptop, and you must bring your laptop to each class/lab. 
+In order to participate in this course, you need a laptop, and you must bring your laptop to each class/lab.
 
 ## Topical Outline
 
@@ -83,7 +83,7 @@ I expect you to establish a professional relationship with each other, and with 
 * **Venture** and be resourceful. Back your statements with fact and research based evidence.
 * **Calculate** and be diplomatic: disagree respectfully; think about what you are saying; be concise and try not to waste other’s time.
 
-Also see the [Discussion Board Participation Policy](Discussion-Board-Participation-Policy)
+Also see the [Discussion Board Participation Policy](Discussion-Board-Participation-Policy.md)
 
 
 ## Cheating and Plagiarism

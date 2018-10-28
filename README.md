@@ -1,74 +1,82 @@
+# CMU Heinz 95729 E-Commerce Tech
+![e-commerce](https://cloud.githubusercontent.com/assets/933621/10716481/265914d0-7b11-11e5-8538-a32894ea5ccb.jpg)
+
+Welcome to the CMU Heinz 95729 E-Commerce Tech course materials! Check out the [Course Overview](./materials/Course-Overview.md), if you haven't already read it.
+
+# LICENSE
+The material for this course is licensed under the [Creative Commons Attribution Share Alike 4.0](LICENSE_CONTENT) license. Source code provided for this course is licensed under the [MIT license](LICENSE_SOFTWARE). All materials and source code are copyrighted, Andrew Wright 2016, unless otherwise specified.
+
 ## Overview
 
-* [Course Overview](Course-Overview)
-* [Team Project](Team-Project)
-* [Discussion Policies](Discussion-Board-Policy)
-* [Books / Resources](Resources)
+* [Course Overview](./materials/Course-Overview.md)
+* [Team Project](./materials/Team-Project.md)
+* [Discussion Policies](./materials/Discussion-Board-Policy.md)
+* [Books / Resources](./materials/Resources.md)
 
 ## Week 1
 ### Overview and Lectures
 
-* [Week 1](Week-1)
-* [Lecture :: Introduction](Lecture-%3A%3A-Introduction)
-* [Lecture :: JavaScript Primer](Lecture-%3A%3A-JavaScript-Primer)
+* [Week 1](./materials/Week-1.md)
+* [Lecture :: Introduction](./materials/Lecture-%3A%3A-Introduction.md)
+* [Lecture :: JavaScript Primer](./materials/Lecture-%3A%3A-JavaScript-Primer.md)
 
 ### Assignments
 
-* [Discussion :: What Do You Want To Learn?](Discussion-%3A%3A-What-Do-You-Want-To-Learn%3F)
-* [Reading :: It Depends!](Reading-%3A%3A-It-Depends)
-* [Reading :: User Stories](Reading-%3A%3A-User-Stories)
-* [Reading :: A Simple Guide to Git](Reading-%3A%3A-A-Simple-Guide-to-Git)
-* [Reading :: Github Hello World](Reading-%3A%3A-Github-Hello-World)
+* [Discussion :: What Do You Want To Learn?](./materials/Discussion-%3A%3A-What-Do-You-Want-To-Learn%3F.md)
+* [Reading :: It Depends!](./materials/Reading-%3A%3A-It-Depends.md)
+* [Reading :: User Stories](./materials/Reading-%3A%3A-User-Stories.md)
+* [Reading :: A Simple Guide to Git](./materials/Reading-%3A%3A-A-Simple-Guide-to-Git.md)
+* [Reading :: Github Hello World](./materials/Reading-%3A%3A-Github-Hello-World.md)
 
 ### Exercises
 
-* [(JS) Exercise :: Writing JavaScript Functions](Exercise-%3A%3A-Writing-JavaScript-Functions)
-* [(JS) Exercise :: Writing JavaScript Modules Using IIFFEs](Exercise-%3A%3A-Writing-JavaScript-Modules-Using-IIFEs)
-* [(JS) Exercise :: Avoiding Parameter Mutation](Exercise-%3A%3A-Avoiding-Parameter-Mutation)
+* [(JS) Exercise :: Writing JavaScript Functions](./materials/Exercise-%3A%3A-Writing-JavaScript-Functions.md)
+* [(JS) Exercise :: Writing JavaScript Modules Using IIFFEs](./materials/Exercise-%3A%3A-Writing-JavaScript-Modules-Using-IIFEs.md)
+* [(JS) Exercise :: Avoiding Parameter Mutation](./materials/Exercise-%3A%3A-Avoiding-Parameter-Mutation.md)
 
 ## Week 2
 ### Overview and Lectures
 
-* [Week 2](Week-2)
-* [Lecture :: No-SQL Design Patterns](Lecture-%3A%3A-NoSQL-Design-Patterns)
-* [Lecture :: Design Patterns](Lecture-%3A%3A-Design-Patterns)
+* [Week 2](./materials/Week-2.md)
+* [Lecture :: No-SQL Design Patterns](./materials/Lecture-%3A%3A-NoSQL-Design-Patterns.md)
+* [Lecture :: Design Patterns](./materials/Lecture-%3A%3A-Design-Patterns.md)
 
 
 ### Assignments
 
-* [Reading :: Single Page Web Applications Chapter 2](Reading-%3A%3A-Single-Page-Web-Applications-Chapter-2)
-* [(JS) Reading :: Subtype Polymorphism With Functions](Reading-%3A%3A-Subtype-Polymorphism-With-Functions)
-* [(JS) Reading :: Arithmetic Operators in JavaScript](Reading-%3A%3A-Arithmetic-Operators-in-JavaScript)
-* [Reading :: Model-View-Controller](Reading-%3A%3A-Model-View-Controller)
-* [Provision a MongoDB](Provision-a-MongoDB)
+* [Reading :: Single Page Web Applications Chapter 2](./materials/Reading-%3A%3A-Single-Page-Web-Applications-Chapter-2.md)
+* [(JS) Reading :: Subtype Polymorphism With Functions](./materials/Reading-%3A%3A-Subtype-Polymorphism-With-Functions.md)
+* [(JS) Reading :: Arithmetic Operators in JavaScript](./materials/Reading-%3A%3A-Arithmetic-Operators-in-JavaScript.md)
+* [Reading :: Model-View-Controller](./materials/Reading-%3A%3A-Model-View-Controller.md)
+* [Provision a MongoDB](./materials/Provision-a-MongoDB.md)
 
 ### Exercises
 
-* [(JS) Exercise :: Writing JavaScript Modules using Hilary](Exercise-%3A%3A-Writing-JavaScript-Modules-using-Hilary)
-* [(JS) Exercise :: Writing Blueprints](Exercise-%3A%3A-Writing-Blueprints)
-* [(JS) Exercise :: Promise Execution](Exercise-%3A%3A-Promise-Execution)
-* [(JS) Exercise :: Getting Familiar with MongoDB](Exercise-%3A%3A-Getting-Familiar-With-MongoDB)
+* [(JS) Exercise :: Writing JavaScript Modules using Hilary](./materials/Exercise-%3A%3A-Writing-JavaScript-Modules-using-Hilary.md)
+* [(JS) Exercise :: Writing Blueprints](./materials/Exercise-%3A%3A-Writing-Blueprints.md)
+* [(JS) Exercise :: Promise Execution](./materials/Exercise-%3A%3A-Promise-Execution.md)
+* [(JS) Exercise :: Getting Familiar with MongoDB](./materials/Exercise-%3A%3A-Getting-Familiar-With-MongoDB.md)
 
 ## Week 3
 ### Overview and Lectures
 
-* [Week 3](Week-3)
-* [Lecture :: SOLID Programming](Lecture-%3A%3A-SOLID-Programming)
+* [Week 3](./materials/Week-3.md)
+* [Lecture :: SOLID Programming](./materials/Lecture-%3A%3A-SOLID-Programming.md)
 * Lecture :: Conversational UIs
 
 ### Assignments
 
-* [Readings :: API Modality](Reading-%3A%3A-API-Modality)
-* [Readings :: SOLID Programming](Reading-%3A%3A-SOLID-Programming)
+* [Readings :: API Modality](./materials/Reading-%3A%3A-API-Modality.md)
+* [Readings :: SOLID Programming](./materials/Reading-%3A%3A-SOLID-Programming.md)
 
 ### Exercises
 
-* [Exercise :: Freezing and Sealing Objects](Exercise-%3A%3A-Freezing-and-Sealing-Objects)
-* [Exercise :: Open/Closed Principle](Exercise-%3A%3A-Open-Closed-Principle)
-* [Exercise :: LSP With Objects](Exercise-%3A%3A-LSP-With-Objects)
-* [Exercise :: Single Responsibility & Dependency Injection](Exercise-%3A%3A-Single-Responsibility-and-Dependency-Injection)
-* [Exercise :: Poor Man's DI](Exercise-%3A%3A-Poor-Man%27s-DI)
-* [Exercise :: Inversion of Control Containers](Exercise-%3A%3A-Inversion-of-Control-Containers)
+* [Exercise :: Freezing and Sealing Objects](./materials/Exercise-%3A%3A-Freezing-and-Sealing-Objects.md)
+* [Exercise :: Open/Closed Principle](./materials/Exercise-%3A%3A-Open-Closed-Principle.md)
+* [Exercise :: LSP With Objects](./materials/Exercise-%3A%3A-LSP-With-Objects.md)
+* [Exercise :: Single Responsibility & Dependency Injection](./materials/Exercise-%3A%3A-Single-Responsibility-and-Dependency-Injection.md)
+* [Exercise :: Poor Man's DI](./materials/Exercise-%3A%3A-Poor-Man%27s-DI.md)
+* [Exercise :: Inversion of Control Containers](./materials/Exercise-%3A%3A-Inversion-of-Control-Containers.md)
 
 ## Week 4
 ### Overview and Lectures
@@ -78,11 +86,11 @@
 
 ### Assignments
 
-* [Reading :: Using Story Points For Estimation](Reading-%3A%3A-Using-Story-Points-For-Estimation)
-* [Reading :: A Successful Git Branching Model](Reading-%3A%3A-A-Successful-Git-Branching-Model)
-* [Reading :: The 10 Commandments of Good Source Control](Reading-%3A%3A-The-10-Commandments-of-Good-Source-Control)
-* [Homework :: User Stories](Homework-%3A%3A-User-Stories)
-* [Homework :: Planning Poker Cards](Homework-%3A%3A-Planning-Poker-Cards)
+* [Reading :: Using Story Points For Estimation](./materials/Reading-%3A%3A-Using-Story-Points-For-Estimation.md)
+* [Reading :: A Successful Git Branching Model](./materials/Reading-%3A%3A-A-Successful-Git-Branching-Model.md)
+* [Reading :: The 10 Commandments of Good Source Control](./materials/Reading-%3A%3A-The-10-Commandments-of-Good-Source-Control.md)
+* [Homework :: User Stories](./materials/Homework-%3A%3A-User-Stories.md)
+* [Homework :: Planning Poker Cards](./materials/Homework-%3A%3A-Planning-Poker-Cards.md)
 
 ## Week 5
 ### Overview and Lectures
