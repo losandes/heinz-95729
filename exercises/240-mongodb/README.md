@@ -10,7 +10,7 @@ Each exercise has at least one `TODO` comment in it, that explains what you need
 
 #### Testing your Work
 
-1. Make sure mongodb is installed on your computer (see [Provision a MongoDB](../../Provision-a-MongoDB.md) if you don't already have it installed)
+1. Make sure mongodb is installed on your computer (see [Provision a MongoDB](../../materials/Provision-a-MongoDB.md) if you don't already have it installed)
 1. git clone this repository if you haven't already
 1. Make sure you `npm install` in the parent directory before running these exercises
 1. If it isn't already running, start MongoDB.

@@ -1,104 +1,103 @@
-Welcome to the CMU Heinz 95729 E-Commerce Tech course materials!
+## Overview
 
-### Head over to the [Course Wiki](https://github.com/losandes/heinz-95729-materials-2017/wiki) to see the materials
+* [Course Overview](Course-Overview)
+* [Team Project](Team-Project)
+* [Discussion Policies](Discussion-Board-Policy)
+* [Books / Resources](Resources)
 
-#### LICENSE
+## Week 1
+### Overview and Lectures
 
-The material for this course is licensed under the [Creative Commons Attribution Share Alike 4.0](LICENSE-CONTENT) license. Source code provided for this course is licensed under the [MIT license](LICENSE-SOFTWARE). All materials and source code are copyrighted, Andrew Wright 2016, unless otherwise specified.
+* [Week 1](Week-1)
+* [Lecture :: Introduction](Lecture-%3A%3A-Introduction)
+* [Lecture :: JavaScript Primer](Lecture-%3A%3A-JavaScript-Primer)
 
-## Exercises
+### Assignments
 
-To get started with the exercises, clone this repository. Several tests require other libraries to work. Before running these exercises, navigate to this directory in a terminal, and run the following to get the dependencies:
+* [Discussion :: What Do You Want To Learn?](Discussion-%3A%3A-What-Do-You-Want-To-Learn%3F)
+* [Reading :: It Depends!](Reading-%3A%3A-It-Depends)
+* [Reading :: User Stories](Reading-%3A%3A-User-Stories)
+* [Reading :: A Simple Guide to Git](Reading-%3A%3A-A-Simple-Guide-to-Git)
+* [Reading :: Github Hello World](Reading-%3A%3A-Github-Hello-World)
 
-```
-$ npm install
-```
+### Exercises
 
-### Running the Exercises
+* [(JS) Exercise :: Writing JavaScript Functions](Exercise-%3A%3A-Writing-JavaScript-Functions)
+* [(JS) Exercise :: Writing JavaScript Modules Using IIFFEs](Exercise-%3A%3A-Writing-JavaScript-Modules-Using-IIFEs)
+* [(JS) Exercise :: Avoiding Parameter Mutation](Exercise-%3A%3A-Avoiding-Parameter-Mutation)
 
-You can run the exercises from this directory using `npm`:
+## Week 2
+### Overview and Lectures
 
-```Shell
-# Run all exercises
-$ npm test
+* [Week 2](Week-2)
+* [Lecture :: No-SQL Design Patterns](Lecture-%3A%3A-NoSQL-Design-Patterns)
+* [Lecture :: Design Patterns](Lecture-%3A%3A-Design-Patterns)
 
-# Run week-1 exercises
-$ npm run test:week1
 
-# Run week-2 exercises
-$ npm run test:week2
+### Assignments
 
-# Run week-3 exercises
-$ npm run test:week3
-```
+* [Reading :: Single Page Web Applications Chapter 2](Reading-%3A%3A-Single-Page-Web-Applications-Chapter-2)
+* [(JS) Reading :: Subtype Polymorphism With Functions](Reading-%3A%3A-Subtype-Polymorphism-With-Functions)
+* [(JS) Reading :: Arithmetic Operators in JavaScript](Reading-%3A%3A-Arithmetic-Operators-in-JavaScript)
+* [Reading :: Model-View-Controller](Reading-%3A%3A-Model-View-Controller)
+* [Provision a MongoDB](Provision-a-MongoDB)
 
-To run tests one-at-a-time, execute the `exercise` with node. For example, to execute the _freezing-and-sealing_ exercise, you can execute it from this directory:
+### Exercises
 
-```Shell
-$ node SOLID/02-01-freezing-and-sealing/exercise
-```
+* [(JS) Exercise :: Writing JavaScript Modules using Hilary](Exercise-%3A%3A-Writing-JavaScript-Modules-using-Hilary)
+* [(JS) Exercise :: Writing Blueprints](Exercise-%3A%3A-Writing-Blueprints)
+* [(JS) Exercise :: Promise Execution](Exercise-%3A%3A-Promise-Execution)
+* [(JS) Exercise :: Getting Familiar with MongoDB](Exercise-%3A%3A-Getting-Familiar-With-MongoDB)
 
-Or you can navigate to that directory and run the exercise from there:
+## Week 3
+### Overview and Lectures
 
-```Shell
-$ cd SOLID/02-01-freezing-and-sealing
-$ node exercise
-```
+* [Week 3](Week-3)
+* [Lecture :: SOLID Programming](Lecture-%3A%3A-SOLID-Programming)
+* Lecture :: Conversational UIs
 
-### Debugging the Exercises
-You can run the exercises in debug mode, by adding `:debug` to the end of the command:
+### Assignments
 
-```Shell
-# Run all exercises
-$ npm test:debug
+* [Readings :: API Modality](Reading-%3A%3A-API-Modality)
+* [Readings :: SOLID Programming](Reading-%3A%3A-SOLID-Programming)
 
-# Run week-1 exercises
-$ npm run debug:week1
+### Exercises
 
-# Run week-2 exercises
-$ npm run debug:week2
+* [Exercise :: Freezing and Sealing Objects](Exercise-%3A%3A-Freezing-and-Sealing-Objects)
+* [Exercise :: Open/Closed Principle](Exercise-%3A%3A-Open-Closed-Principle)
+* [Exercise :: LSP With Objects](Exercise-%3A%3A-LSP-With-Objects)
+* [Exercise :: Single Responsibility & Dependency Injection](Exercise-%3A%3A-Single-Responsibility-and-Dependency-Injection)
+* [Exercise :: Poor Man's DI](Exercise-%3A%3A-Poor-Man%27s-DI)
+* [Exercise :: Inversion of Control Containers](Exercise-%3A%3A-Inversion-of-Control-Containers)
 
-# Run week-3 exercises
-$ npm run debug:week3
-```
+## Week 4
+### Overview and Lectures
 
-#### Adding breakpoints and evaluating state with REPL
-You can add breakpoints to your code, by adding `debugger` to the line of code that you want to break on. You can set breakpoints at run time (in debug mode), using `setBreakpoint`. i.e.:
+* Lecture :: Data Science in E-Commerce
+* Lab :: Project Kickoff
 
-```
-# This example assumes your in the exercises directory
-$ npm run test:debug
+### Assignments
 
-> heinz-95729-exercises@1.0.0 test:debug /Users/andes/Documents/dev_git/heinz-95729-answers/exercises
-> node debug index
+* [Reading :: Using Story Points For Estimation](Reading-%3A%3A-Using-Story-Points-For-Estimation)
+* [Reading :: A Successful Git Branching Model](Reading-%3A%3A-A-Successful-Git-Branching-Model)
+* [Reading :: The 10 Commandments of Good Source Control](Reading-%3A%3A-The-10-Commandments-of-Good-Source-Control)
+* [Homework :: User Stories](Homework-%3A%3A-User-Stories)
+* [Homework :: Planning Poker Cards](Homework-%3A%3A-Planning-Poker-Cards)
 
-< Debugger listening on [::]:5858
-connecting to 127.0.0.1:5858 ... ok
-# When you start in debug mode, it always breaks on the first line
-# so you can set breakpoints as needed
-break in index.js:1
-> 1 'use strict';
-  2
-  3 require('./hilary-and-polyn');
-# In debug mode, our prompt is "debug>"
-# In this example, we set a breakpoint in blueprints exercise 1, on line 49
-debug> setBreakpoint('hilary-and-polyn/10-blueprints/exercise-1/exercise.js', 49);
-# Type c for continue
-debug> c
-# When node.js loads the file, it will break on line 49
-break in hilary-and-polyn/10-blueprints/exercise-1/exercise.js:49
- 47             // TODO: Refactor this constructor to get the test to pass
- 48
->49             var book = new Book({
- 50                 title: 'Hello World',
- 51                 author: 'Hello World',
-# We are given a debug prompt to explore the code in this state, however
-# we need to enter REPL mode if we want to evaluate anything:
-debug>repl
-## REPL will drop us down to a ">" prompt. From here, we can evaluate the code
-Press Ctrl + C to leave debug repl
-> console.log(Book);
-# ...
-```
+## Week 5
+### Overview and Lectures
 
-Alternatively, you can [use an IDE that supports debugging](https://code.visualstudio.com/docs/nodejs/nodejs-debugging).
+* Lab :: Planning Poker & Design
+* No Class Thursday
+
+## Week 6
+### Overview and Lectures
+
+* Lab :: Team Project
+* Lab :: Team Project
+
+## Week 7
+### Overview and Lectures
+
+* Lab :: Team Project
+* Project Presentations
