@@ -3,7 +3,7 @@ Exercise :: Writing JavaScript Modules using IIFEs
 
 ## The Problem
 
-Building on the [functions exercise](../functions), try implementing the module pattern, by encapsulating your answer in an immediately-invoked function expression (IIFE).
+Building on the [functions exercise](../110-functions), try implementing the module pattern, by encapsulating your answer in an immediately-invoked function expression (IIFE).
 
 By converting the function into an IIFE, it will become immediately, and globally available. The IIFE is a pattern that takes advantage of stable, native JavaScript - no third-party libraries required.
 
@@ -25,7 +25,7 @@ helloWorld.sayHello('Michael');
 
 ## The Exercise
 
-1. Wrap your answer to the [functions exercise](../functions) in round brackets `()`, and add another pair of round brackets immediately after the closing curly bracket, inside the other round brackets (i.e. `(function () {}())`). Set the output of this IIFE to a variable named `myIncrementor`.
+1. Wrap your answer to the [functions exercise](../110-functions) in round brackets `()`, and add another pair of round brackets immediately after the closing curly bracket, inside the other round brackets (i.e. `(function () {}())`). Set the output of this IIFE to a variable named `myIncrementor`.
 
 #### Testing your Work
 
