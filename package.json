@@ -1,0 +1,39 @@
+{
+  "name": "heinz-95729-materials",
+  "version": "1.0.0",
+  "description": "Exercises to accompany Heinz-95729 E-Commerce Tech, Bots, and Analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index",
+    "test:debug": "node debug index",
+    "test:week1": "node week-1",
+    "debug:week1": "node debug week-1",
+    "test:week2": "node week-2",
+    "debug:week2": "node debug week-2",
+    "test:week3": "node week-3",
+    "debug:week3": "node debug week-3"
+  },
+  "author": "Andy Wright <andes.collab@gmail.com> (https://github.com/losandes)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.2",
+    "chalk": "^2.1.0",
+    "hilary": "^5.0.*",
+    "mongodb": "^2.2.11",
+    "polyn": "^1.10.*",
+    "pretty-tree": "^1.0.0",
+    "prompt": "^1.0.0",
+    "request": "^2.82.0",
+    "supposed": "^0.1.0",
+    "terminal-adventure": "^0.1.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
