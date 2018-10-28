@@ -1,16 +1,22 @@
-Book purchases are not required, and the books you choose to buy will differ depending on which track you, or the class chooses to follow (Node.js or .NET). All of these books provide valuable lessons that will help you in this class, and in the market.
+Book purchases are not required, and the books you choose to buy may differ depending on what you choose to explore in the course project. All of these books provide valuable lessons that will help you in this class, and in the market.
+
+-----------------------------
+
+<img src="https://images.manning.com/720/960/resize/book/c/4d7bb26-5e33-4b6a-b71b-2fa35958c0d9/pharrington.png" width="150" align="left" />
+
+[Machine Learning in Action](https://www.manning.com/books/machine-learning-in-action) is unique book that blends the foundational theories of machine learning with the practical realities of building tools for everyday data analysis. You'll use the flexible Python programming language to build programs that implement algorithms for data classification, forecasting, recommendations, and higher-level features like summarization and simplification.
 
 -----------------------------
 
 <img src="images/book-spa.jpg" width="150" align="left" />
 
-In [Single Page Web Applications](http://www.amazon.com/Single-Page-Applications-end---end/dp/1617290750/ref=sr_1_1?s=books&ie=UTF8&qid=1415247669&sr=1-1&keywords=single+page+web+applications) you'll learn to build modern browser-based apps that take advantage of stronger client platforms and more predictable bandwidth. You'll learn the SPA design approach, and then start exploring new techniques like structured JavaScript and responsive design. And you'll learn how to capitalize on trends like server-side JavaScript and NoSQL data stores, as well as new frameworks that make JavaScript more manageable and testable as a first-class language.
+In [Single Page Web Applications](https://www.manning.com/books/single-page-web-applications) you'll learn to build modern browser-based apps that take advantage of stronger client platforms and more predictable bandwidth. You'll learn the SPA design approach, and then start exploring new techniques like structured JavaScript and responsive design. And you'll learn how to capitalize on trends like server-side JavaScript and NoSQL data stores, as well as new frameworks that make JavaScript more manageable and testable as a first-class language.
 
 -----------------------------
 
 <img src="images/book-dip-dot-net.jpg" width="150" align="left" />
 
- [Dependency Injection in .NET](http://www.amazon.com/Dependency-Injection-NET-Mark-Seemann/dp/1935182501/ref=la_B004XYGMVK_1_1?s=books&ie=UTF8&qid=1413139797&sr=1-1), winner of the 2013 Jolt Awards for Productivity, presents core DI patterns in plain C#, so you'll fully understand how DI works, covers integration with standard Microsoft technologies like ASP.NET MVC, and teaches you to use DI frameworks like Structure Map, Castle Windsor, and Unity.
+ [Dependency Injection in .NET](https://www.manning.com/books/dependency-injection-in-dot-net) ([newer edition in MEAP](https://www.manning.com/books/dependency-injection-in-dot-net-second-edition)), winner of the 2013 Jolt Awards for Productivity, presents core DI patterns in plain C#, so you'll fully understand how DI works, covers integration with standard Microsoft technologies like ASP.NET MVC, and teaches you to use DI frameworks like Structure Map, Castle Windsor, and Unity.
 
 > I've not found a better book on Dependency Injection, in any programming language. Regardless of what language you use, the concepts and patterns in this book are tremendously useful.
 
