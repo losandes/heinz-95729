@@ -8,4 +8,4 @@ JavaScript objects are mutable, and therefore not protected from side-effects by
 
 ----------------------------------
 
-[Tryout JavaScript's mutability controls](https://github.com/losandes/heinz-95729-materials-2017/tree/master/week-3/02-01-freezing-and-sealing)
+[Tryout JavaScript's mutability controls](../exercises/310-freezing-and-sealing)

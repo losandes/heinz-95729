@@ -22,7 +22,7 @@ The material for this course is licensed under the [Creative Commons Attribution
 
 ### Assignments
 
-* [Discussion :: What Do You Want To Learn?](./materials/Discussion-%3A%3A-What-Do-You-Want-To-Learn%3F.md)
+* [Discussion :: What Do You Want To Learn?](./materials/Discussion-%3A%3A-What-Do-You-Want-To-Learn.md)
 * [Reading :: It Depends!](./materials/Reading-%3A%3A-It-Depends.md)
 * [Reading :: User Stories](./materials/Reading-%3A%3A-User-Stories.md)
 * [Reading :: A Simple Guide to Git](./materials/Reading-%3A%3A-A-Simple-Guide-to-Git.md)

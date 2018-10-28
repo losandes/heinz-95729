@@ -11,4 +11,4 @@ We're using MongoDB in our course project. MongoDB has very thorough documentati
 * We're using MongoDB in our course project. These exercises should get you familiar with the basics, so you can start using it with confidence.
 
 ----------------------------------
-[Get Familiar with MongoDB](/losandes/heinz-95729-materials-2017/tree/master/week-2/40-mongodb)
+[Get Familiar with MongoDB](../exercises/240-mongodb)

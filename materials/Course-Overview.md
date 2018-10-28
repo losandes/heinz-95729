@@ -83,7 +83,7 @@ I expect you to establish a professional relationship with each other, and with 
 * **Venture** and be resourceful. Back your statements with fact and research based evidence.
 * **Calculate** and be diplomatic: disagree respectfully; think about what you are saying; be concise and try not to waste other’s time.
 
-Also see the [Discussion Board Participation Policy](Discussion-Board-Participation-Policy.md)
+Also see the [Discussion Board Policy](Discussion-Board-Policy.md)
 
 
 ## Cheating and Plagiarism

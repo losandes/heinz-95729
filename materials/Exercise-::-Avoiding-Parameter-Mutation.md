@@ -9,4 +9,4 @@ When we pass arguments to JavaScript functions, objects that we pass, as well as
 * Argument mutation leads to unexpected experiences that are hard to troubleshoot
 
 ----------------------------------
-[Try Avoiding Mutation When Working with JavaScript Arguments](/losandes/heinz-95729-materials-2017/tree/master/week-1/30-argument-mutability)
+[Try Avoiding Mutation When Working with JavaScript Arguments](../exercises/130-argument-mutability)
