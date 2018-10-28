@@ -8,4 +8,4 @@ To ease the pain, we can use an Inversion of Control Container, or IOC Container
 
 -------------------------------
 
-[Try using an Inversion of Control Container](https://github.com/losandes/heinz-95729-materials-2017/tree/master/week-3/05-03-ioc-containers)
+[Try using an Inversion of Control Container](../exercises/322-ioc-containers)

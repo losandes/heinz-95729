@@ -16,4 +16,4 @@ There are many solutions to these problems, in each language. For JavaScript, I 
 * If you have a Java background, these exercises introduce extremely valuable language features that are common in many languages, but unavailable Java.
 
 -----------------------------
-[Try Writing Some Blueprints](/losandes/heinz-95729-materials-2017/tree/master/week-2/20-blueprints).
+[Try Writing Some Blueprints](../exercises/220-blueprints).

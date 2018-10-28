@@ -9,4 +9,4 @@ This exercise presents a real world example that backs many companies into corne
 
 ------------------------------------
 
-[Try inverting control of a single module](https://github.com/losandes/heinz-95729-materials-2017/tree/master/week-3/05-01-SRP-DIP)
+[Try inverting control of a single module](../exercises/320-SRP-DIP)

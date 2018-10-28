@@ -9,4 +9,4 @@ What do we need to change, in order for this to meet Liskov's Substitution Princ
 
 ----------------------------
 
-[Try meeting LSP using JavaScript Objects and Subtype Polymorphism](https://github.com/losandes/heinz-95729-materials-2017/tree/master/week-3/03-01-LSP-with-objects)
+[Try meeting LSP using JavaScript Objects and Subtype Polymorphism](../exercises/312-LSP-with-objects)

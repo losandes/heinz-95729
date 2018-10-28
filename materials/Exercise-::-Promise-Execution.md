@@ -15,4 +15,4 @@ In applications, we often need to control the flow of operations, to achieve ser
 * Promises are an alternative to using callbacks, which you'll be exposed to in the MongoDB exercises
 
 -----------------------------
-[Start Learning About Promises](/losandes/heinz-95729-materials-2017/tree/master/week-2/30-promise-execution).
+[Start Learning About Promises](../exercises/230-promise-execution).

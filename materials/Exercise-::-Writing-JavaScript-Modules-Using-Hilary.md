@@ -10,4 +10,4 @@ Now that we know how to encapsulate our code in immediately-invoked function exp
 * Our course project uses HilaryJS, extensively. It's time to start getting familiar with it.
 
 ----------------------------
-[Try Writing JavaScript Modules using HilaryJS](/losandes/heinz-95729-materials-2017/tree/master/week-2/10-hilary)
+[Try Writing JavaScript Modules using HilaryJS](../exercises/210-hilary)

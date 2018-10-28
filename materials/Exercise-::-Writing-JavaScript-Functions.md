@@ -9,4 +9,4 @@ In the JavaScript Functions exercise, we are going to explore writing and execut
 Functions are the basis for many patterns in JavaScript, such as the constructor pattern and the module pattern
 
 -----------------------------------
-[Try Writing a Function](/losandes/heinz-95729-materials-2017/tree/master/week-1/10-functions)
+[Try Writing a Function](../exercises/110-functions)

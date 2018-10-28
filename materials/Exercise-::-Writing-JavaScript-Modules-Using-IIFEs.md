@@ -10,4 +10,4 @@ Now that we know how to write functions in JavaScript, we are going to explore m
 * The module pattern is key to supporting encapsulation in JavaScript, and it is heavily used throughout the industry.
 
 ----------------------------------
-[Try Writing Immediately-Invoked Function Expressions (IIFEs)](/losandes/heinz-95729-materials-2017/tree/master/week-1/20-iife)
+[Try Writing Immediately-Invoked Function Expressions (IIFEs)](../exercises/120-iife)

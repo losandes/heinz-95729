@@ -11,4 +11,4 @@ Principles are meant to guide our decisions, and it's important that we understa
 
 ----------------------------
 
-[Try meeting the Open/Closed Principle in JavaScript](https://github.com/losandes/heinz-95729-materials-2017/tree/master/week-3/02-02-open-closed)
+[Try meeting the Open/Closed Principle in JavaScript](../exercises/311-open-closed)

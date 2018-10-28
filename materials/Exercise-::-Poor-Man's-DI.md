@@ -11,4 +11,4 @@ In this exercise, we're going to compose our dependency graph by hand. This if o
 
 ---------------------------
 
-[Try composing an application by hand](https://github.com/losandes/heinz-95729-materials-2017/tree/master/week-3/05-02-poor-mans-di)
+[Try composing an application by hand](../exercises/321-poor-mans-di)
