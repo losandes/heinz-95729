@@ -4,7 +4,7 @@
 Welcome to the CMU Heinz 95729 E-Commerce Tech course materials! Check out the [Course Overview](./materials/Course-Overview.md), if you haven't already read it.
 
 # LICENSE
-The material for this course is licensed under the [Creative Commons Attribution Share Alike 4.0](LICENSE_CONTENT) license. Source code provided for this course is licensed under the [MIT license](LICENSE_SOFTWARE). All materials and source code are copyrighted, Andrew Wright 2016, unless otherwise specified.
+The material for this course is licensed under the [Creative Commons Attribution Share Alike 4.0](LICENSE_CONTENT) license. Source code provided for this course is licensed under the [MIT license](LICENSE_SOFTWARE). All materials and source code are copyrighted, Andrew Wright 2018, unless otherwise specified.
 
 ## Overview
 
