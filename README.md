@@ -1,13 +1,13 @@
 ![e-commerce](https://cloud.githubusercontent.com/assets/933621/10716481/265914d0-7b11-11e5-8538-a32894ea5ccb.jpg)
 
 ## Materials
-The course materials are available in the [materials folder](./materials/REAMDE.md#overview)
+The course materials are available in the [materials folder](./materials#overview)
 
 ## Course Description
 
 What will come next in e-commerce? What stable foundations will continue to matter?
 
-In E-Commerce Tech, you will learn about software engineering design principles, and patterns for leveraging technology through the lens of e-commerce. We will explore ways that sub-fields of Artificial Intelligence (AI), such as Machine Learning (ML), and Conversational User Interfaces (CUI), are used at the intersection of technology, and microeconomics.
+In E-Commerce Tech, you will learn about software engineering design principles, and patterns for leveraging technology through the lens of e-commerce. We will explore how Artificial Intelligence (AI), Machine Learning (ML), and Conversational User Interfaces (CUI) are used at the intersection of technology, and microeconomics.
 
 To explore these topics, you will apply what you are learning, choosing from an array of team and solo projects that cover third-party integration, user experience (UX), servers and APIs, data querying and analytics, machine learning, conversational bots, and user engagement.
 
