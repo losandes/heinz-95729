@@ -28,6 +28,6 @@ The material for this course is licensed under the [Creative Commons Attribution
 * [Reading :: It Depends!](Reading-%3A%3A-It-Depends.md)
 * [Reading :: Falsification](Reading-%3A%3A-Falsification.md)
 * [Reading :: Bots won't replace apps. Better apps will replace apps.](http://dangrover.com/blog/2016/04/20/bots-wont-replace-apps.html)
-
+* [Podcast :: Rodney Brooks on AI](Reading-%3A%3A-Rodney-Brooks-on-AI.md)
 
 
