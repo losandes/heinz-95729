@@ -1,8 +1,5 @@
 ![e-commerce](https://cloud.githubusercontent.com/assets/933621/10716481/265914d0-7b11-11e5-8538-a32894ea5ccb.jpg)
 
-## Materials
-The course materials are available in the [materials folder](./materials#overview)
-
 ## Course Description
 
 What will come next in e-commerce? What stable foundations will continue to matter?
