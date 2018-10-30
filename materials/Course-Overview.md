@@ -2,7 +2,9 @@
 
 ## Course Description
 
-In this course, you will learn about software engineering design patterns, and principles for building applications and conversational bots, and for leveraging machine learning and data analytics, through the lens of e-commerce.
+What will come next in e-commerce? What stable foundations will continue to matter?
+
+In E-Commerce Tech, you will learn about software engineering design principles, and patterns for leveraging technology through the lens of e-commerce. We will explore how Artificial Intelligence (AI), Machine Learning (ML), and Conversational User Interfaces (CUI) are used at the intersection of technology, and microeconomics.
 
 To explore these topics, you will apply what you are learning, choosing from an array of team and solo projects that cover third-party integration, user experience (UX), servers and APIs, data querying and analytics, machine learning, conversational bots, and user engagement.
 
@@ -10,47 +12,54 @@ In order to participate in this course, you need a laptop, and you must bring yo
 
 ## Topical Outline
 
-* Programming in JavaScript (not in-depth)
-* SOLID principles
-* Code composition
+* Artificial Intelligence (AI) in e-commerce
+* Machine Learning (ML): predicting customer behaviors
+* Conversational UIs (CUI / Bots): trust, and transparency to drive sales
+* Third-Party Integration: trading CAPEX, for OPEX
+* SOLID principles, and code composition
 * Design Patterns (MVC, MVVM, Repository, Factory)
-* Server application frameworks
-* Client application frameworks
+* APIs, and server frameworks
+* User Experience (UX), and client application frameworks
+* Server, and web client application frameworks
 * Test Driven Development (TDD) and Behavior Driven Development (BDD)
 * Specifications/requirements
 * RDBMS & No-SQL
-* Analytics, Machine Learning, & User Engagement
-* Conversational UIs (Bots), & User Engagement
-* Third-Party Integration
-* User Experience (UX)
-* APIs (servers)
-* TDD & BDD Development
+* Programming in JavaScript (optional, not in-depth)
 
 ## Learning objectives
 After completing this course, you should be able to:
 
+* Explain how machine learning can be used to suggest goods and products
+* Explain how NLU can be used to understand speech, and written text
 * Describe and demonstrate the SOLID principles
 * Describe and implement several common design patterns (MVC, MVVM, Repository, Factory)
-* Describe and implement Dependency Injection, using an Inversion of Control container and a Composition Root
-* Leverage a server-side web application framework
-* Leverage a client-side JavaScript framework
-* Compose the user experience, using templates and data-binding
+* List several forms of software testing
 * Describe Test Driven Development (TDD) and Behavior Driven Development (BDD)
 * Write unit tests to assess code
 * Write functionality that satisfies unit tests
 * Participate in source code management
 * Read, write and design to user stories
 
+Depending on which project you embark on, you should be able to:
+
+* Leverage an ML algorithm that reveals frequent patterns in user behavior
+* Compare algorithms for finding frequent patterns in user behavior
+* Convert speech, or text to intent, entities, and actions
+* Describe and implement Dependency Injection, using an Inversion of Control container and a Composition Root
+* Leverage a server-side web application framework
+* Leverage a client-side JavaScript framework
+* Compose the user experience, using templates and data-binding
+
+
 ## Pre-requisites
 * Proficiency with at least one modern programming language (JavaScript / Python / Go / C# / Java preferred) and modern programming concepts
-* Proficiency with HTML and CSS
 
 ## Grading Rubric
 | Percent | Component |
 |:--------|:----------|
-| 40% | Exam |
+| 30% | Exam |
 | 50% | Team Project |
-| 10% | Participation & Discussions |
+| 20% | Participation & Discussions |
 
 _Letter grade evaluation is described below. Final grades may be adjusted up or down based on the instructor's holistic assessment of each student's demonstrated performance and learning._
 
@@ -70,13 +79,12 @@ _Letter grade evaluation is described below. Final grades may be adjusted up or 
 6
 
 ## Course Policies and expectations
-In order to participate in this course, you need a laptop with a modern Operating System, and you must bring your laptop to each class/recitation/lab.
+In order to participate in this course, you need a laptop, and you must bring your laptop to each class/recitation/lab.
 
-This course is delivered through a partially flipped classroom. Much of the lecture is provided in video format, so we can focus on application/lab work, comprehension, and questions in the classroom.
-
-The majority of your grade is in your team project. Failure to attend class, especially team events, will diminish your ability to participate in the project, and ultimately that may effect your grade.
+The participation grade will include some in-class discussions. Make sure I know ahead of time if you are not able to attend class.
 
 I expect you to establish a professional relationship with each other, and with me. That means clear communication, and at times, negotiation. In the marketplace, communications skills are among the most desirable assets that hiring managers look for. Take the opportunity to practice the following skills:
+
 * **Listen** and communicate your comprehension.
 * **Question** and attempt to reduce ambiguity. Be honest and open about what you don’t understand.
 * **Criticize** and argue _constructively_.
