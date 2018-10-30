@@ -7,6 +7,7 @@
 #### Why should I listen to this this?
 
 > “Most geniuses, especially those who lead others, prosper not by deconstructing intricate complexities, but by exploiting unrecognized simplicities”
+>
 > -- Andy Benoit
 
 Practical application of existing knowledge will not only lead to new discoveries, it presents great opportunity for capitalization, _now_.
