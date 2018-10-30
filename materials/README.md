@@ -21,7 +21,7 @@ The material for this course is licensed under the [Creative Commons Attribution
 ## Week 2
 ### Overview and Lectures
 
-* Lecture :: Conversation User Interfaces
+* Lecture :: Conversational User Interfaces
 * Lecture :: Artificial Intelligence in E-Commerce
 
 ## Assignments
