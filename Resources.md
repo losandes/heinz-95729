@@ -14,6 +14,8 @@ Book purchases are not required, and the books you choose to buy may differ depe
 
 In [Single Page Web Applications](https://www.manning.com/books/single-page-web-applications) you'll learn to build modern browser-based apps that take advantage of stronger client platforms and more predictable bandwidth. You'll learn the SPA design approach, and then start exploring new techniques like structured JavaScript and responsive design. And you'll learn how to capitalize on trends like server-side JavaScript and NoSQL data stores, as well as new frameworks that make JavaScript more manageable and testable as a first-class language.
 
+<br>
+
 -----------------------------
 
 <img src="https://www.dropbox.com/s/oenfs7va85qhn5z/book-dip-dot-net.jpg?dl=0&raw=1" width="150" align="left" />
@@ -21,6 +23,8 @@ In [Single Page Web Applications](https://www.manning.com/books/single-page-web-
  [Dependency Injection in .NET](https://www.manning.com/books/dependency-injection-in-dot-net) ([newer edition in MEAP](https://www.manning.com/books/dependency-injection-in-dot-net-second-edition)), winner of the 2013 Jolt Awards for Productivity, presents core DI patterns in plain C#, so you'll fully understand how DI works, covers integration with standard Microsoft technologies like ASP.NET MVC, and teaches you to use DI frameworks like Structure Map, Castle Windsor, and Unity.
 
 > I've not found a better book on Dependency Injection, in any programming language. Regardless of what language you use, the concepts and patterns in this book are tremendously useful.
+
+<br>
 
 -----------------------------
 
