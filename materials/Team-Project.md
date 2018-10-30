@@ -1,13 +1,14 @@
 ## Objectives
-Gather requirements from the client (professor)
-Present the requirements to the client in User Story format
-Plan your approach: Design through Planning Poker
-Agree on a branching strategy
-Work together as a team to implement the design
-Use Pull-Requests and Code Reviews to merge new code
-Test your code
-Present your solution to the class
-Submit peer evaluations
+
+* Gather requirements from the client (professor)
+* Present the requirements to the client in User Story format
+* Plan your approach: Design through Planning Poker
+* Agree on a branching strategy
+* Work together as a team to implement the design
+* Use Pull-Requests and Code Reviews to merge new code
+* Test your code
+* Present your solution to the class
+* Submit peer evaluations
 
 ## The Ask (examples)
 
@@ -25,9 +26,21 @@ Submit peer evaluations
 
 * Using the [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2), prepare the data so it can be used in a CUI. A working app should let me add and remove items from a shopping cart. It should also let me check the prices of items, and pseudo-checkout to make a purchase (psuedo meaning Stripe integration with the terminal is not necessary).
 
+### CUI In Slack, With Alexa, etc.
+
+* Build a bot for Slack, or skills for Alexa to support an interactive shopping experience (See #cui-in-the-terminal for more details)
+
 ### Machine Learning
 
-* Using the [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2), prepare the data so it can be used to suggest, or upsell other products based on what a person is putting into their carts. Suggested algorithms are Apriori and FP-Growth.
+* Using the [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2), prepare the data so it can be used to suggest, or upsell other products based on what a person has in their cart. Suggested algorithms are Apriori and FP-Growth.
+
+### Machine Learning Paper
+
+* Compare algorithms for suggesting, or upselling products based on what a person puts in their cart. How should we determine the thresholds to tune the FP-Growth algorithm?
+
+### Your Idea Here
+
+* You may present alternative project or paper ideas when its time to start the course project. Not all ideas will be accepted. Ideas must be challenging, and align with the course content.
 
 ## Deliverables
 
