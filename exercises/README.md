@@ -1,12 +1,5 @@
-Welcome to the CMU Heinz 95729 E-Commerce Tech course materials!
-
-### Head over to the [Course Wiki](https://github.com/losandes/heinz-95729-materials-2017/wiki) to see the materials
-
-#### LICENSE
-
-The material for this course is licensed under the [Creative Commons Attribution Share Alike 4.0](LICENSE-CONTENT) license. Source code provided for this course is licensed under the [MIT license](LICENSE-SOFTWARE). All materials and source code are copyrighted, Andrew Wright 2016, unless otherwise specified.
-
-## Exercises
+Heinz 95729 E-Commerce Tech Exercises
+=====================================
 
 To get started with the exercises, clone this repository. Several tests require other libraries to work. Before running these exercises, navigate to this directory in a terminal, and run the following to get the dependencies:
 
