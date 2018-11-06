@@ -28,7 +28,7 @@ Person = function (firstName, middleName, lastName, age, active, custom) {
         // Note that we only validate the type, if middleName is defined.
         // That implies that middleName is NOT required. Look at the
         // `nullable` property on the Blueprint example for an example:
-        // https://github.com/losandes/hilaryjs/wiki/Blueprint#blueprint
+        // https://github.com/losandes/polyn/wiki/Blueprint#types
 
         // Do you think it's easy to overlook the fact that this property
         // is not required when reading this code?
