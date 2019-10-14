@@ -1,13 +1,12 @@
 'use strict';
 
-const test = require('supposed');
 const data = require('./data.js');
 const BaseRepo = require('./BaseRepo.js').factory();
 const FrozenRepo = require('./FrozenRepo.js').factory(BaseRepo);
 const SealedRepo = require('./SealedRepo.js').factory(BaseRepo);
 const PreventExtensionsRepo = require('./PreventExtensionsRepo.js').factory(BaseRepo);
 
-test('(SOLID::02-01-freezing-and-sealing)', {
+module.exports = (test) => test('310-freezing-and-sealing', {
     'when I add a new property': {
         when: () => {
             return iEnhance(BaseRepo);

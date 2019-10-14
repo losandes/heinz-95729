@@ -42,7 +42,7 @@ In this exercise, we're going to compose our dependency graph by hand. This if o
 
 #### Testing Your Work
 
-1. To test your work, with a terminal prompt in this directory, run: `node exercise`
+1. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 321`
 
 ##### Manually Testing Your Work
 You can run the app to start a server, listening on port 3000:

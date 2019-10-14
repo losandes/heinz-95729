@@ -5,35 +5,36 @@
   "main": "index.js",
   "scripts": {
     "test": "node index",
-    "test:debug": "node debug index",
-    "test:100": "node index.100.js",
-    "debug:100": "node debug index.100.js",
-    "test:200": "node index.200.js",
-    "debug:200": "node debug index.200.js",
-    "test:300": "node index.300.js",
-    "debug:300": "node debug index.300.js"
+    "debug:all": "node inspect index",
+    "test:100": "node index.js -o deterministic -m '1\\d0'",
+    "debug:100": "node inspect index.js -o deterministic -m '1\\d0'",
+    "test:200": "node index.js -o deterministic -m '2\\d0'",
+    "debug:200": "node inspect index.js -o deterministic -m '2\\d0'",
+    "test:300": "node index.js -o deterministic -m '3\\d0'",
+    "debug:300": "node inspect index.js -o deterministic -m '3\\d0'"
   },
   "author": "Andy Wright <andes.collab@gmail.com> (https://github.com/losandes)",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.1.2",
-    "chalk": "^2.1.0",
-    "hilary": "^5.0.*",
-    "mongodb": "^2.2.11",
-    "polyn": "^1.10.*",
-    "pretty-tree": "^1.0.0",
-    "prompt": "^1.0.0",
-    "request": "^2.82.0",
-    "supposed": "^0.1.0",
-    "terminal-adventure": "^0.1.0",
-    "uuid": "^3.1.0"
+    "@polyn/blueprint": "~2.5.1",
+    "@polyn/immutable": "~1.0.7",
+    "async": "~3.1.0",
+    "chalk": "~2.4.2",
+    "hilary": "~5.2.0",
+    "mongodb": "~3.3.2",
+    "pretty-tree": "~1.0.0",
+    "prompt": "~1.0.0",
+    "request": "~2.88.0",
+    "supposed": "~1.0.4-beta.1",
+    "terminal-adventure": "~1.0.2",
+    "uuid": "~3.3.3"
   },
   "devDependencies": {
-    "eslint": "^4.5.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint": "~6.5.1",
+    "eslint-config-standard": "~14.1.0",
+    "eslint-plugin-import": "~2.18.2",
+    "eslint-plugin-node": "~10.0.0",
+    "eslint-plugin-promise": "~4.2.1",
+    "eslint-plugin-standard": "~4.0.1"
   }
 }

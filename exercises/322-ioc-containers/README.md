@@ -38,7 +38,7 @@ Set the name to, "data". Set the factory to the current export.
 
 ## Testing Your Work
 
-1. To test your work, with a terminal prompt in this directory, run: `node exercise`
+1. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 322`
 
 ## Extra Challenge
 

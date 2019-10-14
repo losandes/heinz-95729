@@ -1,52 +1,51 @@
 'use strict';
 
-const Blueprint = require('polyn').Blueprint;
-const test = require('supposed');
+const { blueprint } = require('@polyn/blueprint');
 
 var bookBlueprint,
     Book;
 
-bookBlueprint = new Blueprint({
-    __blueprintId: 'BookBlueprint',
+bookBlueprint = blueprint('BookBlueprint', {
     title: 'string',
     author: 'string',
-    price: 'money',
-    active: 'bool',
-    custom: {
-        validate: function (val, errors /*, book*/) {
-            if (val !== 42) {
-                errors.push('custom must be 42');
-            }
-        }
+    price: 'decimal:2',
+    active: 'boolean',
+    custom: ({ key, value, input, root }) => {
+      if (value !== 42) {
+        throw new Error('custom must be 42')
+      }
+
+      return { value }
     }
 });
 
 Book = function (book) {
-    var self = {};
+    const validation = bookBlueprint.validate(book)
 
-    if (bookBlueprint.syncSignatureMatches(book).result !== true) {
-        console.log(bookBlueprint.syncSignatureMatches(book).errors);
-        throw new Error('The book argument is invalid');
+    if (validation.err) {
+      throw validation.err;
     }
 
-    self.title = book.title;
-    self.author = book.author;
-    self.price = book.price;
-    self.active = book.active;
-    self.custom = book.custom;
+    const _book = validation.value;
 
-    return self;
+    const title = _book.title;
+    const author = _book.author;
+    const price = _book.price;
+    const active = _book.active;
+    const custom = _book.custom;
+
+    return { title, author, price, active, custom };
 };
 
 ///////////////////////////////////////////////////////////
 // TEST
-test({
-    '(hilary-and-polyn::10-blueprints:exercise-1) Book, when a new Book is constructed': {
+module.exports = (test) => test('220-blueprints-1', {
+    'Book, when a new Book is constructed': {
         when: () => {
             // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             // TODO: Refactor this constructor to get the test to pass
 
-            var book = new Book({
+            return new Book({
                 title: 42,
                 author: 42,
                 price: 'fail',
@@ -55,7 +54,6 @@ test({
             });
 
             // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-            return book;
         },
         'it should NOT throw an error if the argument is valid': (t) => (err) => {
             t.ifError(err);

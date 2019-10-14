@@ -10,7 +10,7 @@ JavaScript has built in features that help to address this: [Object.freeze](http
 | function                 | CREATE | READ | UPDATE | DELETE |
 |--------------------------|--------|------|--------|--------|
 | Object.freeze	           |   ✗    |  ✓   |   ✗    |   ✗    |
-| Object.seal	           |   ✗    |  ✓   |   ✓    |   ✗    |
+| Object.seal	             |   ✗    |  ✓   |   ✓    |   ✗    |
 | Object.preventExtensions |   ✗    |  ✓   |   ✓    |   ✓    |
 
 Below is an example that freezes an anonymous object:
@@ -37,6 +37,6 @@ Object.freeze({
 
 #### Testing Your Work
 
-1. Run `node exercise` before, and after each step. What test outcomes changed? How did they change, and why?
+1. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 310`. Do this before and after each step. What test outcomes changed? How did they change, and why?
 
 > Executing this exercise requires NodeJS to be installed

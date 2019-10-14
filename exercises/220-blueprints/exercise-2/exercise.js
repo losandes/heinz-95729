@@ -1,23 +1,23 @@
 'use strict';
 
-const Blueprint = require('polyn').Blueprint;
-const test = require('supposed');
-
-var personBlueprint,
+const { blueprint, gt } = require('@polyn/blueprint')
+let personBlueprint,
     Person,
     InvalidArgumentException;
 
 // TODO Define the personBlueprint
 
+
 // TODO Replace the primitive arguments with a single object argument
 Person = function (firstName, middleName, lastName, age, active, custom) {
     var self, errors = [];
 
-    // TODO Replace these inline guard clauses with this:
-    // if (!personBlueprint.syncSignatureMatches(person).result) {
-    //     return new InvalidArgumentException(
-    //         personBlueprint.syncSignatureMatches(person).errors
-    //     );
+    // TODO Replace the inline guard clauses with this:
+    // const validation = personBlueprint.validate(person)
+    //
+    // if (validation.err) {
+    //   validation.err.messages = validation.messages;
+    //   throw validation.err;
     // }
 
     if (!firstName || typeof firstName !== 'string') {
@@ -26,9 +26,9 @@ Person = function (firstName, middleName, lastName, age, active, custom) {
 
     if (middleName && typeof middleName !== 'string') {
         // Note that we only validate the type, if middleName is defined.
-        // That implies that middleName is NOT required. Look at the
-        // `nullable` property on the Blueprint example for an example:
-        // https://github.com/losandes/polyn/wiki/Blueprint#types
+        // That implies that middleName is NOT required. Blueprint uses `?`
+        // to denote that a property is nullable. For more info see:
+        // https://github.com/losandes/polyn-blueprint#types--validators
 
         // Do you think it's easy to overlook the fact that this property
         // is not required when reading this code?
@@ -53,7 +53,7 @@ Person = function (firstName, middleName, lastName, age, active, custom) {
     }
 
     if (errors.length) {
-        return new InvalidArgumentException(errors);
+        throw new Error(`Invalid Person: ${errors.join(', ')}`)
     }
 
     self = {
@@ -68,77 +68,41 @@ Person = function (firstName, middleName, lastName, age, active, custom) {
     return self;
 };
 
-InvalidArgumentException = function (errors) {
-    var messages = [];
-
-    if (Array.isArray(errors)) {
-        messages = errors;
-    } else {
-        messages.push(errors);
-    }
-
-    return {
-        isException: true,
-        type: 'InvalidArgumentException',
-        messages: messages
-    };
-};
-
-
 ///////////////////////////////////////////////////////////
 // TEST
-test({
-    '(hilary-and-polyn::10-blueprints:exercise-2) Person, when a valid Person is constructed': {
-        when: () => {
-            return new Promise((resolve, reject) => {
-                var person = new Person({
-                    firstName: 'Happy',
-                    middleName: 'M',
-                    lastName: 'Shawaa',
-                    age: 42,
-                    active: true,
-                    custom: 42
-                });
-
-                if (person.isException) {
-                    return reject(person);
-                }
-
-                return resolve(person);
-            });
-        },
-        'it should return a Person': (t) => (err, actual) => {
-            t.ifError(err);
-            t.equal(actual.firstName, 'Happy');
-            t.equal(actual.middleName, 'M');
-            t.equal(actual.lastName, 'Shawaa');
-            t.equal(actual.age, 42);
-            t.equal(actual.active, true);
-            t.equal(actual.custom, 42);
-        }
-    },
-    'Person, when an invalid Person is constructed': {
-        when: () => {
-            return new Promise((resolve, reject) => {
-                var person = new Person({
-                    firstName: 42,
-                    middleName: 42,
-                    lastName: 42,
-                    age: '42',
-                    active: 'true',
-                    custom: '42'
-                });
-
-                if (person.isException) {
-                    return reject(person);
-                }
-
-                return resolve(person);
-            });
-        },
-        'it should return an Exception': (t) => (err) => {
-            t.equal(err.isException, true);
-            t.equal(err.messages.length, 6);
-        }
-    }
+module.exports = (test) => test('220-blueprints-2', {
+  'when a valid Person is constructed': {
+      when: () => new Person({
+          firstName: 'Happy',
+          middleName: 'M',
+          lastName: 'Shawaa',
+          age: 42,
+          active: true,
+          custom: 42
+      }),
+      'it should return a Person': (t) => (err, actual) => {
+          t.ifError(err);
+          t.strictEqual(actual.firstName, 'Happy');
+          t.strictEqual(actual.middleName, 'M');
+          t.strictEqual(actual.lastName, 'Shawaa');
+          t.strictEqual(actual.age, 42);
+          t.strictEqual(actual.active, true);
+          t.strictEqual(actual.custom, 42);
+      }
+  },
+  'when an invalid Person is constructed': {
+      when: () => new Person({
+          firstName: 42,
+          middleName: 42,
+          lastName: 42,
+          age: '42',
+          active: 'true',
+          custom: '42'
+      }),
+      'it should return an Exception': (t) => (err) => {
+          t.ok(typeof err !== 'undefined' && err !== null)
+          t.strictEqual(err.messages.length, 6);
+          t.strictEqual(err.message.startsWith('Invalid Person'), true);
+      }
+  }
 });

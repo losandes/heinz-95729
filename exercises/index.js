@@ -1,5 +1,6 @@
-'use strict';
+const suite = require('supposed').Suite({ name: 'heinz-95729-exercises'})
 
-require('./index.100.js')
-require('./index.200.js')
-require('./index.300.js')
+suite.runner({
+  cwd: __dirname,
+  matchesNamingConvention: /.(exercise\.js)$/i,
+}).run()

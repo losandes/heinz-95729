@@ -1,7 +1,5 @@
 'use strict';
 
-const test = require('supposed');
-
 function Builder () {
     var output = {
         name: null,
@@ -60,38 +58,39 @@ function AsyncBuilder () {
     return builder;
 }
 
-test('Builder, when I build, then should return an object', (t) => {
-    const expectedName = 'Synchronous Builder Pattern';
-    const expectedDescription = 'An anti-pattern that addresses the symptoms of other anti-patterns (the spawn of other anti-patterns)';
+module.exports = (test) => test('230-promise-execution', {
+  'Builder, when I build, then should return an object': (t) => {
+      const expectedName = 'Synchronous Builder Pattern';
+      const expectedDescription = 'An anti-pattern that addresses the symptoms of other anti-patterns (the spawn of other anti-patterns)';
 
-    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    // TODO: call `build` immediately before `then`
+      // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+      // TODO: call `build` immediately before `then`
 
-    return new Builder()
-        .name(expectedName)
-        .description(expectedDescription)
-        .then(result => {
-            t.equal(result.name, expectedName);
-            t.equal(result.description, expectedDescription);
-        });
+      return new Builder()
+          .name(expectedName)
+          .description(expectedDescription)
+          .then(result => {
+              t.equal(result.name, expectedName);
+              t.equal(result.description, expectedDescription);
+          });
 
-    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-});
+      // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  },
+  'AsyncBuilder, when I build, then should return an object': (t) => {
+      const expectedName = 'Asynchronous Builder Pattern';
+      const expectedDescription = 'An anti-pattern that addresses the symptoms of other anti-patterns (the spawn of other anti-patterns)';
 
-test('AsyncBuilder, when I build, then should return an object', (t) => {
-    const expectedName = 'Asynchronous Builder Pattern';
-    const expectedDescription = 'An anti-pattern that addresses the symptoms of other anti-patterns (the spawn of other anti-patterns)';
+      // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+      // TODO: call `build` immediately before `then`
 
-    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    // TODO: call `build` immediately before `then`
+      return new AsyncBuilder()
+          .name(expectedName)
+          .description(expectedDescription)
+          .then(result => {
+              t.equal(result.name, expectedName);
+              t.equal(result.description, expectedDescription);
+          });
 
-    return new AsyncBuilder()
-        .name(expectedName)
-        .description(expectedDescription)
-        .then(result => {
-            t.equal(result.name, expectedName);
-            t.equal(result.description, expectedDescription);
-        });
-
-    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+      // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  }
 });

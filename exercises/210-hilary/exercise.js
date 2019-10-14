@@ -1,13 +1,12 @@
 'use strict';
 
 const scope = require('hilary').scope('hilary-exercise');
-const test = require('supposed');
 
 const bootstrap = new Promise((resolve) => {
     scope.bootstrap([
         function (scope, next) {
             // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-            // TODO Convert your answer to ../functions/exercise.js to a hilary module
+            // TODO Convert your answer to the ../110-functions/exercise.js to a hilary module
 
 
 
@@ -45,8 +44,8 @@ const bootstrap = new Promise((resolve) => {
     });
 });
 
-test({
-    '(hilary-and-polyn::30-hilary) myIncrementor, when it is reset and incrementCounter is called a given number of times': {
+module.exports = (test) => test('210-hilary', {
+    'myIncrementor, when it is reset and incrementCounter is called a given number of times': {
         when: () => {
             return bootstrap;
         },
