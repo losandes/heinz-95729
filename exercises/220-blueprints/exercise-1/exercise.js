@@ -37,26 +37,17 @@ Book = function (book) {
     return { title, author, price, active, custom };
 };
 
-///////////////////////////////////////////////////////////
-// TEST
-module.exports = (test) => test('220-blueprints-1', {
-    'Book, when a new Book is constructed': {
-        when: () => {
-            // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-            // TODO: Refactor this constructor to get the test to pass
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// TODO: Refactor this constructor to get the test to pass
 
-            return new Book({
-                title: 42,
-                author: 42,
-                price: 'fail',
-                active: 'fail',
-                custom: 44
-            });
+module.exports = {
+    actual: () => new Book({
+        title: 42,
+        author: 42,
+        price: 'fail',
+        active: 'fail',
+        custom: 44
+    })
+};
 
-            // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-        },
-        'it should NOT throw an error if the argument is valid': (t) => (err) => {
-            t.ifError(err);
-        }
-    }
-});
+// END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

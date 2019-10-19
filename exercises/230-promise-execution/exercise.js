@@ -58,39 +58,27 @@ function AsyncBuilder () {
     return builder;
 }
 
-module.exports = (test) => test('230-promise-execution', {
-  'Builder, when I build, then should return an object': (t) => {
-      const expectedName = 'Synchronous Builder Pattern';
-      const expectedDescription = 'An anti-pattern that addresses the symptoms of other anti-patterns (the spawn of other anti-patterns)';
+module.exports = {
+  Builder,
+  AsyncBuilder,
+  builder: (name, description) => {
+    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    // TODO: call `build` after calling `description`
 
-      // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-      // TODO: call `build` immediately before `then`
+    return new Builder()
+        .name(name)
+        .description(description);
 
-      return new Builder()
-          .name(expectedName)
-          .description(expectedDescription)
-          .then(result => {
-              t.equal(result.name, expectedName);
-              t.equal(result.description, expectedDescription);
-          });
-
-      // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   },
-  'AsyncBuilder, when I build, then should return an object': (t) => {
-      const expectedName = 'Asynchronous Builder Pattern';
-      const expectedDescription = 'An anti-pattern that addresses the symptoms of other anti-patterns (the spawn of other anti-patterns)';
+  asyncBuilder: (name, description) => {
+    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    // TODO: call `build` after calling `description`
 
-      // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-      // TODO: call `build` immediately before `then`
+    return new AsyncBuilder()
+        .name(name)
+        .description(description);
 
-      return new AsyncBuilder()
-          .name(expectedName)
-          .description(expectedDescription)
-          .then(result => {
-              t.equal(result.name, expectedName);
-              t.equal(result.description, expectedDescription);
-          });
-
-      // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   }
-});
+}

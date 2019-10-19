@@ -24,10 +24,10 @@ var size = 6, square = new Square();
 
 square.size = size;
 
-return resolve({
+return {
     expected: size * size,
     actual: square.area()
-});
+};
 ```
 
 #### Testing Your Work

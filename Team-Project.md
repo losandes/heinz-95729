@@ -1,3 +1,6 @@
+To explore the topics in this course, you will apply what you are learning in either a team, or solo project.
+
+
 ## Objectives
 
 * Gather requirements from the client (professor)
@@ -77,33 +80,33 @@ The following tables describe the criteria that will be used to grade the team p
 ### Team Work
 | Points | Criteria for Team Work |
 |:-------|:-----------------------|
-| 10 | :small_orange_diamond: All team members commited code, :small_orange_diamond: The branching and merging strategies are abundantly clear because all team members took part in the same workflow |
-| 5 | :small_orange_diamond: Multiple team members commited code, :small_orange_diamond: Branching and merging strategies are at least somewhat apparent |
-| 2 | :small_orange_diamond: Multiple team members commited code, :small_orange_diamond: Branching and merging strategies were not followed |
-| 0 | :small_orange_diamond: Indications are that one team member performed the work |
+| 10 | • All team members commited code • The branching and merging strategies are abundantly clear because all team members took part in the same workflow |
+| 5 | • Multiple team members commited code • Branching and merging strategies are at least somewhat apparent |
+| 2 | • Multiple team members commited code • Branching and merging strategies were not followed |
+| 0 | • Indications are that one team member performed the work |
 
 ### Implementation
 | Points | Criteria for Implementation |
 |:-------|:----------------------------|
-| 20 | :small_orange_diamond: All user stories were implemented, :small_orange_diamond: All implementations work, :small_orange_diamond: Client-side and Server-side Unit Tests are complete, :small_orange_diamond: All team members participated in the implementation, :small_orange_diamond: SOLID principles and relevant design patterns were implemented |
-| 17 | All user stories were implemented, :small_orange_diamond: Most implementations work, :small_orange_diamond: Client-side and Server-side Unit Tests are incomplete, :small_orange_diamond: All team members participated in the implementation, :small_orange_diamond: SOLID principles and relevant design patterns were implemented |
-|14 | All user stories were implemented, :small_orange_diamond:  Many implementations do not work, :small_orange_diamond: Client-side and Server-side Unit Tests missing or near missing, :small_orange_diamond: All team members participated in the implementation, :small_orange_diamond: SOLID principles and relevant design patterns were implemented |
-|10 | :small_orange_diamond: Some stories were implemented, :small_orange_diamond: Many implementations do not work, :small_orange_diamond: Client-side and Server-side Unit Tests missing or near missing, :small_orange_diamond: Some team members participated in the implementation, :small_orange_diamond: SOLID principles and relevant design patterns were not implemented |
+| 20 | • All user stories were implemented • All implementations work • Client-side and Server-side Unit Tests are complete • All team members participated in the implementation • SOLID principles and relevant design patterns were implemented |
+| 17 | All user stories were implemented • Most implementations work • Client-side and Server-side Unit Tests are incomplete • All team members participated in the implementation • SOLID principles and relevant design patterns were implemented |
+|14 | All user stories were implemented •  Many implementations do not work • Client-side and Server-side Unit Tests missing or near missing • All team members participated in the implementation • SOLID principles and relevant design patterns were implemented |
+|10 | • Some stories were implemented • Many implementations do not work • Client-side and Server-side Unit Tests missing or near missing • Some team members participated in the implementation • SOLID principles and relevant design patterns were not implemented |
 |0 | Team project was not performed |
 
 ### Presentation
 | Points | Criteria for Presentation |
 |:-------|:--------------------------|
-| 20 | :small_orange_diamond: All team members took part in presentation, :small_orange_diamond: The team effectively communicates their design, :small_orange_diamond: The team illustrates where and how they followed SOLID principles and other design patterns |
-| 17 | :small_orange_diamond: All team members took part in presentation, :small_orange_diamond: The team struggles to communicate their design, :small_orange_diamond: The team struggles to illustrate where and how they followed SOLID principles and other design patterns |
-| 15 | :small_orange_diamond: Some team members took part in presentation, :small_orange_diamond: The team struggles to communicate their design, :small_orange_diamond: The team struggles to illustrate where and how they followed SOLID principles and other design patterns |
+| 20 | • All team members took part in presentation • The team effectively communicates their design • The team illustrates where and how they followed SOLID principles and other design patterns |
+| 17 | • All team members took part in presentation • The team struggles to communicate their design • The team struggles to illustrate where and how they followed SOLID principles and other design patterns |
+| 15 | • Some team members took part in presentation • The team struggles to communicate their design • The team struggles to illustrate where and how they followed SOLID principles and other design patterns |
 | 0 | No presentation was offered |
 
 ### Peer Reviews
 | Points | Criteria for Peer Reviews |
 |:-------|:--------------------------|
-| 10 | :small_orange_diamond: The team member led aspects of the project, :small_orange_diamond: The team member participated in each stage of the project, :small_orange_diamond: The team member worked well with others on the team, :small_orange_diamond: The team member followed the agreed upon workflow
-| 9 | :small_orange_diamond: The team member participated in each stage of the project, :small_orange_diamond: The team member worked well with others on the team, :small_orange_diamond: The team member followed the agreed upon workflow |
-| 7 | :small_orange_diamond: The team member did not participate in each stage of the project, :small_orange_diamond: The team member worked well with others on the team, :small_orange_diamond: The team member struggled with the workflow |
-| 4 | :small_orange_diamond: The team member did not participate in each stage of the project, :small_orange_diamond: The team member did not work well with others on the team, :small_orange_diamond: The team member struggled with or did not participate in the workflow |
+| 10 | • The team member led aspects of the project • The team member participated in each stage of the project • The team member worked well with others on the team • The team member followed the agreed upon workflow
+| 9 | • The team member participated in each stage of the project • The team member worked well with others on the team • The team member followed the agreed upon workflow |
+| 7 | • The team member did not participate in each stage of the project • The team member worked well with others on the team • The team member struggled with the workflow |
+| 4 | • The team member did not participate in each stage of the project • The team member did not work well with others on the team • The team member struggled with or did not participate in the workflow |
 | 0 | The team member did not participate in the project |

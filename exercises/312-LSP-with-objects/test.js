@@ -1,10 +1,9 @@
 'use strict';
 
-const test = require('supposed');
 const Rectangle = require('./Rectangle');
 const Square = require('./Square');
 
-test('(SOLID::03-01-LSP-with-objects)', {
+module.exports = (test) => test('312-LSP-with-objects', {
     'when I get the area for a rectangle': {
         when: () => {
             var height = 5, width = 6, rectangle = new Rectangle();

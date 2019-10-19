@@ -1,9 +1,8 @@
 'use strict';
 
 const ProductInventoryRepo = require('./ProductInventoryRepo.js');
-const test = require('supposed');
 
-test('(SOLID::05-01-SRP-DIP)', {
+module.exports = (test) => test('320-SRP-DIP', {
     'when a productInventoryRepo is constructed with a data connection': {
         when: () => {
             let mockDb = makeMockDb();

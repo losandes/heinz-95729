@@ -36,6 +36,8 @@ Set the name to, "data". Set the factory to the current export.
 6. In the bootstrap finally argument (i.e. `(err, scope) => {}`), register a module named "server", and set the factory to `scope.resolve('Server')` (note the case difference between _server_ and _Server_). Doing this starts the app, and makes the product of _Server_ available for other modules, such as `exercise.js`.
 7. Finally, after the bootstrap function, export the scope: `module.exports = scope`
 
+> Important! this test expects you to see the server port to `3022`, so it doesn't collide with the test in 321-poor-mans-di.
+
 ## Testing Your Work
 
 1. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 322`

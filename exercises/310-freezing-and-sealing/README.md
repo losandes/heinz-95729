@@ -32,8 +32,8 @@ Object.freeze({
 > NOTE this exercise is less about writing code, and more about comprehending the functions described above. I recommend running the exercise before, and after each step, and analyzing the tests, and different outcomes.
 
 1. Refactor `FrozenRepo.js` following the `TODO` comments inside it
-2. Refactor `Sealed.js` following the `TODO` comments inside it
-3. Refactor `PreventExtensions.js` following the `TODO` comments inside it
+2. Refactor `SealedRepo.js` following the `TODO` comments inside it
+3. Refactor `PreventExtensionsRepo.js` following the `TODO` comments inside it
 
 #### Testing Your Work
 

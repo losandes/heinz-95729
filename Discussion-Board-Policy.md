@@ -12,7 +12,7 @@ Your participation in discussions will be evaluated according to the following c
 
 | Points | Criteria for Posts |
 |:-------|:-------------------|
-| 3 | Post represents a thoughtful contribution: :small_orange_diamond: provides relevant insights, evidence, applications, implications, connections to relevant issues and ideas, or the equivalent, :small_orange_diamond: asking question(s) that can clarify or deepen the discussion |
+| 3 | Post represents a thoughtful contribution: • provides relevant insights, evidence, applications, implications, connections to relevant issues and ideas, or the equivalent • asking question(s) that can clarify or deepen the discussion |
 | 2 | Post represents a thoughtful contribution: provides relevant insights, evidence, applications, implications, connections to relevant issues and ideas, or the equivalent |
 | 1 | Post does not represent a thoughtful contribution |
 | 0 | No post or post is disrespectful |
@@ -20,7 +20,7 @@ Your participation in discussions will be evaluated according to the following c
 
 | Points | Criteria for Comments |
 |:-------|:-------------------|
-| 3 | Response deepens the discussion and/or advances it: :small_orange_diamond: builds on or challenges an idea, :small_orange_diamond: lends support or contributes evidence, :small_orange_diamond: clarifies, explains or offers alternative idea, :small_orange_diamond: refocuses discussion, :small_orange_diamond: asks question(s) that can clarify or deepen the discussion |
-| 2 | Response deepens the discussion and/or advances it: :small_orange_diamond: builds on or challenges an idea, :small_orange_diamond: lends support or contributes evidence, :small_orange_diamond: clarifies, explains or offers alternative idea, :small_orange_diamond: refocuses discussion |
+| 3 | Response deepens the discussion and/or advances it: • builds on or challenges an idea • lends support or contributes evidence • clarifies, explains or offers alternative idea • refocuses discussion • asks question(s) that can clarify or deepen the discussion |
+| 2 | Response deepens the discussion and/or advances it: • builds on or challenges an idea • lends support or contributes evidence • clarifies, explains or offers alternative idea • refocuses discussion |
 | 1 | Response does not deepen or strengthen the discussion |
 | 0 | No comments or comment is disrespectful |

@@ -1,11 +1,10 @@
 'use strict';
 
-const test = require('supposed');
 const data = require('./data.js');
 const OpenClosedModule = require('./OpenClosedModule.js').factory();
 const BaseRepo = require('./BaseRepo.js').factory(OpenClosedModule);
 
-test('(SOLID::02-02-open-closed)', {
+module.exports = (test) => test('311-open-closed', {
     '(baseline) when I create a BaseRepo': {
         when: () => {
             const repo = new BaseRepo('products');

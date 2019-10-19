@@ -51,8 +51,9 @@ Depending on which project you embark on, you should be able to:
 * Compose the user experience, using templates and data-binding
 
 
-## Pre-requisites
-* Proficiency with at least one modern programming language (JavaScript / Python / Go / C# / Java preferred) and modern programming concepts
+## Prerequisites
+
+Proficiency with at least one modern programming language (i.e. JavaScript / Python / Go / C# / Java) and modern programming concepts
 
 ## Grading Rubric
 | Percent | Component |
