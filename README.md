@@ -59,7 +59,7 @@ Proficiency with at least one modern programming language (i.e. JavaScript / Pyt
 | Percent | Component |
 |:--------|:----------|
 | 30% | Exam |
-| 50% | [Team Project](Team-Project.md) |
+| 50% | [Project](Project.md) |
 | 20% | Participation & Discussions |
 
 _Letter grade evaluation is described below. Final grades may be adjusted up or down based on the instructor's holistic assessment of each student's demonstrated performance and learning._

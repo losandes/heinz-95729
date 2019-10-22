@@ -15,14 +15,8 @@ You can run the exercises from this directory using `npm`:
 # Run all exercises
 $ npm test
 
-# Run 100 level exercises
-$ npm run test:100
-
-# Run 200 level exercises
-$ npm run test:200
-
-# Run 300 level exercises
-$ npm run test:300
+# OR
+$ node index -o deterministic
 ```
 
 To run tests one-at-a-time, use the `-m` switch when executing "index.js" (i.e. `node index -m 110`). For example, to execute the _freezing-and-sealing_ exercise, you can execute it from this directory:
@@ -31,21 +25,28 @@ To run tests one-at-a-time, use the `-m` switch when executing "index.js" (i.e. 
 $ node index -m 310
 ```
 
+The `-m` switch supports regex, so to run all of the tests for a given level:
+
+```Shell
+# Run all 100 level tests
+$ node index.js -o deterministic -m '1\\d0'
+
+# Run all 200 level tests
+$ node index.js -o deterministic -m '2\\d0'
+```
+
 ### Debugging the Exercises
 You can run the exercises in debug mode, by using `debug` instead of `test`:
 
 ```Shell
 # Run all exercises
-$ npm run debug:all
+$ npm run debug
 
-# Run 100 level exercises
-$ npm run debug:100
+# OR
+$ node inspect index -o deterministic
 
-# Run 200 level exercises
-$ npm run debug:200
-
-# Run 300 level exercises
-$ npm run debug:300
+# OR to debug a single test
+$ node inspect index -m 310
 ```
 
 #### Adding breakpoints and evaluating state with REPL

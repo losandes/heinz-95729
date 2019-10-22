@@ -1,7 +1,5 @@
 'use strict';
 
-const scope = require('./app.js');
-const http = require('http');
 let sutSingleton;
 
 module.exports = (test, dependencies) => {
@@ -9,14 +7,21 @@ module.exports = (test, dependencies) => {
     if (sutSingleton && sutSingleton.server) {
         sutSingleton.server.close();
     }
-  })
+  });
 
   return test('322-ioc-containers', {
+      given: async () => {
+        const scope = require('./app.js');
+        const http = require('http');
+        const server = await theServerStarts(scope)
+
+        return { scope, http, server }
+      },
       'when the app starts up': {
-          when: theServerStarts,
+          when: ({ server }) => server,
           'it should return a server, db, logger, and port': appStarts,
           'and I make a GET request for a product': {
-              when: iRequestAProduct,
+              when: ({ http }) => iRequestAProduct(http),
               'it should return a product': returnsAProduct,
               'it should use the mock data connection': usesMockDb,
               'it should use the mock logger': usesMockLogger
@@ -25,7 +30,7 @@ module.exports = (test, dependencies) => {
   });
 };
 
-function theServerStarts () {
+function theServerStarts (scope) {
     return new Promise((resolve, reject) => {
         start(0);
 
@@ -56,7 +61,7 @@ function theServerStarts () {
     });
 }
 
-function iRequestAProduct () {
+function iRequestAProduct (http) {
     return new Promise((resolve, reject) => {
         theServerStarts().then(app => {
             http.get({

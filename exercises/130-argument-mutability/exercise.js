@@ -4,6 +4,7 @@ function Product (product) {
     // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     // TODO: use Object.assign or spread syntax to ensure that `product` has a value
 
+    throw new Error('I didn\'t complete this exercise yet');
     product = product || {};
 
     // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -20,6 +21,7 @@ function ComplexProduct (product) {
     // `product` has a value. Remember to account for the fact that
     // `product` could be null or undefined
 
+    throw new Error('I didn\'t complete this exercise yet');
     product = product || {};
 
     // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

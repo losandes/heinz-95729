@@ -1,18 +1,21 @@
 'use strict';
 
-const app = require('./app.js');
-const http = require('http');
-
 module.exports = (test, dependencies) => {
-  dependencies.teardown(() => {
-      if (app && app.server) {
-          app.server.close();
-      }
-  });
-
   return test('321-poor-mans-di', {
+      given: () => {
+        const app = require('./app.js');
+        const http = require('http');
+
+        dependencies.teardown(() => {
+            if (app && app.server) {
+                app.server.close();
+            }
+        });
+
+        return { app, http };
+      },
       'when the app starts up': {
-          when: () => { return app; },
+          when: ({ app }) => app,
           'it should return a server, db, logger, and port': (t) => (err, app) => {
               t.ifError(err);
               t.equal(typeof app.server, 'object');
@@ -22,10 +25,12 @@ module.exports = (test, dependencies) => {
           }
       },
       'when I make a GET request for a product': {
-          when: requestProduct,
-          'it should return a product': (t) => (err, product) => { t.equal(product.id, 42); },
-          'it should use the mock data connection': t => { t.equal(app.db.getValues().where.id, 42); },
-          'it should use the mock logger': t => {
+          when: (scope) => requestProduct(scope),
+          'it should return a product': (t) => (err, { product }) => { t.equal(product.id, 42); },
+          'it should use the mock data connection': (t) => (err, { app }) => {
+              t.equal(app.db.getValues().where.id, 42);
+          },
+          'it should use the mock logger': (t) => (err, { app }) => {
               let lastMessage = app.logger.getMessages().pop();
 
               t.equal(lastMessage.type, 'info');
@@ -35,7 +40,7 @@ module.exports = (test, dependencies) => {
   });
 }
 
-function requestProduct () {
+function requestProduct ({ app, http }) {
     return new Promise((resolve) => {
         if (!app.server.listening) {
             app.server.listen(app.port);
@@ -54,7 +59,7 @@ function requestProduct () {
             });
 
             res.on('end', () => {
-                resolve(JSON.parse(body));
+                resolve({ app, product: JSON.parse(body)});
                 app.server.close();
             });
         });
