@@ -27,8 +27,8 @@ Follow the steps below to install MongoDB on your local machine. You'll need thi
 
 These are a series of exercises to get you familiar with the MongoDB Node.js driver. The reference material, to help you solve these problems can be found in the MongoDB documentation:
 
-* http://mongodb.github.io/node-mongodb-native/2.2/reference/ecmascript6/crud/
-* http://mongodb.github.io/node-mongodb-native/2.2/api/Collection.html
+* https://mongodb.github.io/node-mongodb-native/3.3/tutorials/crud/
+* https://mongodb.github.io/node-mongodb-native/3.3/api/Collection.html
 
 Each exercise has at least one `TODO` comment in it, that explains what you need to do, to complete the exercise.
 
@@ -38,5 +38,16 @@ Each exercise has at least one `TODO` comment in it, that explains what you need
 1. git clone this repository if you haven't already
 1. Make sure you `npm install` in the parent directory before running these exercises
 1. If it isn't already running, start MongoDB.
-1. In a terminal/console window, execute: `node exercise`
-1. Type the number of the exercise you want to test. When you're done, you can type "all" instead of a number, to execute all of the exercises.
+1. Perform the work for these exercises in the `exercise.js` files, in this directory.
+1. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 240`. To run a specific test, append the test number to it: `node index -m 240-010`.
+
+##### Notes
+
+Connecting to the docker's mongodb shell:
+
+```Shell
+> docker ps
+CONTAINER ID        IMAGE...
+c30ea9f4c792        mongo:latest...
+> docker exec -it c30ea9f4c792 mongo
+```

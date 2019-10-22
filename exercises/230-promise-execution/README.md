@@ -77,7 +77,7 @@ Because the APIs for both builders are the same, and we access them the same way
 
 > The synchronous builder produces a `null` result, while the asynchronous builder produces the object you would expect.
 
-Can you explain why the produce different results?
+Can you explain why they produce different results?
 
 ## The Exercise
 Refactor both of the builders, and both tests, to move the Promises into a function called, `build`. Why? So we can gain control of when the Promise executes. Both builders will still have the same API, but by controlling when the Promise executes, we improve the likelihood that `then` will produce the expected result.
@@ -90,4 +90,4 @@ Refactor both of the builders, and both tests, to move the Promises into a funct
 #### Testing your Work
 
 1. Perform the work for this exercise in the `exercise.js` file, in this directory.
-2. To test your work, with a terminal prompt in this directory, run: `node exercise`
+2. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 230`

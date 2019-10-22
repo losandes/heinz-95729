@@ -10,7 +10,7 @@ JavaScript has built in features that help to address this: [Object.freeze](http
 | function                 | CREATE | READ | UPDATE | DELETE |
 |--------------------------|--------|------|--------|--------|
 | Object.freeze	           |   ✗    |  ✓   |   ✗    |   ✗    |
-| Object.seal	           |   ✗    |  ✓   |   ✓    |   ✗    |
+| Object.seal	             |   ✗    |  ✓   |   ✓    |   ✗    |
 | Object.preventExtensions |   ✗    |  ✓   |   ✓    |   ✓    |
 
 Below is an example that freezes an anonymous object:
@@ -32,11 +32,11 @@ Object.freeze({
 > NOTE this exercise is less about writing code, and more about comprehending the functions described above. I recommend running the exercise before, and after each step, and analyzing the tests, and different outcomes.
 
 1. Refactor `FrozenRepo.js` following the `TODO` comments inside it
-2. Refactor `Sealed.js` following the `TODO` comments inside it
-3. Refactor `PreventExtensions.js` following the `TODO` comments inside it
+2. Refactor `SealedRepo.js` following the `TODO` comments inside it
+3. Refactor `PreventExtensionsRepo.js` following the `TODO` comments inside it
 
 #### Testing Your Work
 
-1. Run `node exercise` before, and after each step. What test outcomes changed? How did they change, and why?
+1. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 310`. Do this before and after each step. What test outcomes changed? How did they change, and why?
 
 > Executing this exercise requires NodeJS to be installed

@@ -1,7 +1,5 @@
 'use strict';
 
-const test = require('supposed');
-
 function Builder () {
     var output = {
         name: null,
@@ -60,38 +58,27 @@ function AsyncBuilder () {
     return builder;
 }
 
-test('Builder, when I build, then should return an object', (t) => {
-    const expectedName = 'Synchronous Builder Pattern';
-    const expectedDescription = 'An anti-pattern that addresses the symptoms of other anti-patterns (the spawn of other anti-patterns)';
-
+module.exports = {
+  Builder,
+  AsyncBuilder,
+  builder: (name, description) => {
     // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    // TODO: call `build` immediately before `then`
+    // TODO: call `build` after calling `description`
 
     return new Builder()
-        .name(expectedName)
-        .description(expectedDescription)
-        .then(result => {
-            t.equal(result.name, expectedName);
-            t.equal(result.description, expectedDescription);
-        });
+        .name(name)
+        .description(description);
 
     // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-});
-
-test('AsyncBuilder, when I build, then should return an object', (t) => {
-    const expectedName = 'Asynchronous Builder Pattern';
-    const expectedDescription = 'An anti-pattern that addresses the symptoms of other anti-patterns (the spawn of other anti-patterns)';
-
+  },
+  asyncBuilder: (name, description) => {
     // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    // TODO: call `build` immediately before `then`
+    // TODO: call `build` after calling `description`
 
     return new AsyncBuilder()
-        .name(expectedName)
-        .description(expectedDescription)
-        .then(result => {
-            t.equal(result.name, expectedName);
-            t.equal(result.description, expectedDescription);
-        });
+        .name(name)
+        .description(description);
 
     // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-});
+  }
+}

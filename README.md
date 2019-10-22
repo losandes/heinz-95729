@@ -51,14 +51,15 @@ Depending on which project you embark on, you should be able to:
 * Compose the user experience, using templates and data-binding
 
 
-## Pre-requisites
-* Proficiency with at least one modern programming language (JavaScript / Python / Go / C# / Java preferred) and modern programming concepts
+## Prerequisites
+
+Proficiency with at least one modern programming language (i.e. JavaScript / Python / Go / C# / Java) and modern programming concepts
 
 ## Grading Rubric
 | Percent | Component |
 |:--------|:----------|
 | 30% | Exam |
-| 50% | [Team Project](Team-Project.md) |
+| 50% | [Project](Project.md) |
 | 20% | Participation & Discussions |
 
 _Letter grade evaluation is described below. Final grades may be adjusted up or down based on the instructor's holistic assessment of each student's demonstrated performance and learning._

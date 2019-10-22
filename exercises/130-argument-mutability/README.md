@@ -32,10 +32,10 @@ When I create an instance of `Product` without a color (i.e. `new Product({ name
 ## The Exercise
 The exercise has 2 constructors in it: `Product` and `ComplexProduct`. Each cause their arguments to mutate.
 
-1. In `Product`, stop mutation from occurring by replacing `product = product || {};` with [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign).
-2. In `ComplexProduct`, stop mutation from occurring by replacing `product = product || {};` with a combination of [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign), [JSON.parse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse), and [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+1. In `Product`, stop mutation from occurring by replacing `product = product || {};` with [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign), or the newer [spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_object_literals)
+2. In `ComplexProduct`, stop mutation from occurring by replacing `product = product || {};` with a combination of [spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_object_literals), [JSON.parse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse), and [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 
 #### Testing your Work
 
 1. Perform the work for this exercise in the `exercise.js` file, in this directory.
-2. To test your work, with a terminal prompt in this directory, run: `node exercise`
+2. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 130`

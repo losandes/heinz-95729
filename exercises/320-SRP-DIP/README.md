@@ -57,4 +57,4 @@ This might look harmless, but this module is very difficult to test. Because it'
 
 #### Testing Your Work
 
-1. To test your work, with a terminal prompt in this directory, run: `node exercise`
+1. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 320`

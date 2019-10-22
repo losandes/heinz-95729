@@ -1,13 +1,16 @@
 'use strict';
 
-const scope = require('hilary').scope('hilary-exercise');
-const test = require('supposed');
+const scope = require('hilary').scope('hilary-exercise', {
+    logging: {
+        level: 'off' // off|trace|debug|info|warn|error|fatal
+    }
+});
 
-const bootstrap = new Promise((resolve) => {
+const bootstrap = new Promise((resolve, reject) => {
     scope.bootstrap([
         function (scope, next) {
             // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-            // TODO Convert your answer to ../functions/exercise.js to a hilary module
+            // TODO Convert your answer to the ../110-functions/exercise.js to a hilary module
 
 
 
@@ -41,18 +44,12 @@ const bootstrap = new Promise((resolve) => {
             throw err;
         }
 
-        scope.resolve('myIncrementorFixture');
+        const actual = scope.resolve('myIncrementorFixture');
+
+        if (actual.isException) {
+            reject(actual.error)
+        }
     });
 });
 
-test({
-    '(hilary-and-polyn::30-hilary) myIncrementor, when it is reset and incrementCounter is called a given number of times': {
-        when: () => {
-            return bootstrap;
-        },
-        'it should increment the count the number of times requested': (t) => (err, result) => {
-            t.ifError(err);
-            t.equal(result.actual, result.expected);
-        }
-    }
-});
+module.exports = { bootstrap };

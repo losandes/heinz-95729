@@ -4,20 +4,20 @@ Exercise :: Writing and Leveraging Blueprints
 ## The Problem
 In programming, we often need a way to define the expectations of an object's properties, to validate a given state of an object, and to provide feedback as to that validity.
 
-There are many solutions to this problem. In this exercise, we will use [Blueprints](https://github.com/losandes/polyn/wiki/Blueprint) to define and validate object schemas.
+There are many solutions to this problem. In this exercise, we will use [blueprints](https://github.com/losandes/polyn-blueprint#polynblueprint) to define and validate object schemas.
 
 
 ## Exercise 1: Guarding Against Invalid Arguments
 Sometimes it's important for us to validate the arguments that are passed to to a function or method. We often refer to these as guard clauses, and they can make our code hard to read, and introduce unnecessary responsibilities.
 
-In this exercise, we have a Blueprint, and a function that uses that blueprint to defend it's expectations of the argument. To get the test to pass:
+In this exercise, we have a blueprint, and a function that uses that blueprint to defend it's expectations of the argument. To get the test to pass:
 
 1. Refactor the constructor below the "TODO" comment until the test passes
 
 #### Testing Your Work
 
 1. Perform the work for this exercise in the `exercise-1/exercise.js` file, in this directory.
-2. To test your work, with a terminal prompt in that directory, run: `node exercise`
+2. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 220-blueprints-1`
 
 ## Exercise 2: Guard Clauses
 In exercise 2, I noted that guard clauses can make our code hard to read, and introduce unnecessary responsibilities. In this exercise, we have a function that accepts several primitive arguments, and validates them explicitly. There are so many problems with this approach:
@@ -42,13 +42,13 @@ var expressive = new Person({
 });
 ```
 
-Let's avoid these problems, and refactor our function to use a Blueprint instead:
+Let's avoid these problems, and refactor our function to use a blueprint instead:
 
-1. Write a Blueprint that defines the same expectations as the guard clauses in the existing function
+1. Write a blueprint that defines the same expectations as the guard clauses in the existing function
 2. Replace the primitive arguments, with a single object argument
-3. Replace the explicit guard clauses with Blueprint validation that returns an Error if the argument is not valid
+3. Replace the explicit guard clauses with blueprint validation that returns an Error if the argument is not valid
 
 #### Testing Your Work
 
 1. Perform the work for this exercise in the `exercise-2/exercise.js` file, in this directory.
-2. To test your work, with a terminal prompt in that directory, run: `node exercise`
+2. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 220-blueprints-2`

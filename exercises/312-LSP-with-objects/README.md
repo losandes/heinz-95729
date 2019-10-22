@@ -24,14 +24,14 @@ var size = 6, square = new Square();
 
 square.size = size;
 
-return resolve({
+return {
     expected: size * size,
     actual: square.area()
-});
+};
 ```
 
 #### Testing Your Work
 
-1. Run `node exercise` before, and after each step. What test outcomes changed? How did they change, and why?
+1. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 312`. Do this before and after each step. What test outcomes changed? How did they change, and why?
 
 > Executing this exercise requires NodeJS to be installed

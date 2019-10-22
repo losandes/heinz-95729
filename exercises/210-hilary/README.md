@@ -32,7 +32,7 @@ scope.register({
 #### Testing Your Work
 
 1. Perform the work for this exercise in the `exercise.js` file, in this directory.
-2. To test your work, with a terminal prompt in this directory, run: `node exercise`
+2. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 210`
 
 ## Additional Reading
 

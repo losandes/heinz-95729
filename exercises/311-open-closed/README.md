@@ -104,6 +104,6 @@ module.exports.factory = function (OpenClosedModule) {
 
 #### Testing Your Work
 
-1. To test your work, with a terminal prompt in this directory, run: `node exercise`
+1. To test your work, with a terminal prompt in the "exercises" directory, run: `node index -m 311`
 
 > Executing this exercise requires NodeJS to be installed
