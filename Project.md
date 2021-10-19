@@ -3,47 +3,39 @@ To explore the topics in this course, you will apply what you are learning in ei
 
 ## Objectives
 
-* Gather requirements from the client (professor)
-* Present the requirements to the client in User Story format
-* Plan your approach: Design through Planning Poker
-* Agree on a branching strategy
-* Work together as a team to implement the design
-* Use Pull-Requests and Code Reviews to merge new code
-* Test your code
-* Present your solution to the class
-* Submit peer evaluations
+- Gather requirements from the client (professor)
+- Present the requirements to the client in User Story format
+- Plan your approach: Design through Planning Poker
+- Agree on a branching strategy
+- Work together as a team to implement the design
+- Use Pull-Requests and Code Reviews to merge new code
+- Test your code
+- Present your solution to the class
+- Submit peer evaluations
 
 ## The Ask (examples)
 
 ### APIs, Web UX, and Integration
 
-* Our book store has no shopping cart! We need a way for people to buy books, and we also want to persist a person’s cart beyond the current session. Add shopping cart functionality to the app.
-* We have no way to checkout, and make purchases. Integrate with [Stripe](https://stripe.com/docs/api#intro) to facilitate checkout.
-* We have no way for user's to see their previous orders. Add order history to the app.
+- Our book store has no shopping cart! We need a way for people to buy books, and we also want to persist a person’s cart beyond the current session. Add shopping cart functionality to the app.
+- We have no way to checkout, and make purchases. Integrate with [Stripe](https://stripe.com/docs/api#intro) to facilitate checkout.
+- We have no way for user's to see their previous orders. Add order history to the app.
 
 ### CUI In the App
 
-* Refactor the search bar in the application to support an interactive conversational user interface (CUI). Add the ability to put books in a shopping cart, and to navigate the site, using Natural Language Processing (NLP).
-
-### CUI In the Terminal
-
-* Using the [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2), prepare the data so it can be used in a CUI. A working app should let me add and remove items from a shopping cart. It should also let me check the prices of items, and pseudo-checkout to make a purchase (psuedo meaning Stripe integration with the terminal is not necessary).
+- Refactor the search bar in the application to support an interactive conversational user interface (CUI). Add the ability to put books in a shopping cart, and to navigate the site, using Natural Language Processing (NLP).
 
 ### CUI In Slack, With Alexa, etc.
 
-* Build a bot for Slack, or skills for Alexa to support an interactive shopping experience (See #cui-in-the-terminal for more details)
+- Build a bot for Slack, or skills for Alexa to support an interactive shopping experience using the [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2) or [another public dataset for recommender systems](https://github.com/caserec/Datasets-for-Recommender-Systems). A working app should let me add and remove items from a shopping cart. It should also let me check the prices of items, and checkout to make a purchase (checkout using Stripe integration with the terminal may or may not be required depending on team size).
 
 ### Machine Learning
 
-* Using the [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2), prepare the data so it can be used to suggest, or upsell other products based on what a person has in their cart. Suggested algorithms are Apriori and FP-Growth.
-
-### Machine Learning Paper
-
-* Compare algorithms for suggesting, or upselling products based on what a person puts in their cart. How should we determine the thresholds to tune the FP-Growth algorithm?
+- Using [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2) or [another public dataset for recommender systems](https://github.com/caserec/Datasets-for-Recommender-Systems) prepare the data so it can be used to suggest, or upsell other products to consumers. Demonstrate the efficacy of at least 3 algorithms, selecting from Content-Based Filtering (Classification), Collaborative Filtering (Nearest Neighbor, Matrix Factorization, Restricted Boltzmann Machines), and/or Association Analysis (Apriori, FP Growth). How do different techniques effect the user experience? How might we balance different consumer desires, such as unfiltered exploration, and filtered suggestions? If you explore FP-Growth, how should we determine the thresholds to tune the FP-Growth algorithm? You may suggest other algorithms, or other ways to explore ML when negotiating the scope of your project.
 
 ### Your Idea Here
 
-* You may present alternative project or paper ideas when its time to start the course project. Not all ideas will be accepted. Ideas must be challenging, and align with the course content.
+- You may present alternative project or paper ideas when its time to start the course project. Not all ideas will be accepted. Ideas must be challenging, and align with the course objectives.
 
 ## Deliverables
 

@@ -2,7 +2,7 @@
 
 ## Course Description
 
-What will come next in e-commerce? What stable foundations will continue to matter?
+In an age of ever-accelerating change, what will come next in e-commerce? What stable foundations will continue to be of value?
 
 In E-Commerce Tech, you will learn about software engineering design principles, and patterns for leveraging technology through the lens of e-commerce. We will explore how Artificial Intelligence (AI), Machine Learning (ML), and Conversational User Interfaces (CUI) are used at the intersection of technology, and microeconomics.
 
@@ -13,7 +13,7 @@ In order to participate in this course, you need a laptop, and you must bring yo
 ## Topical Outline
 
 * Artificial Intelligence (AI) in e-commerce
-* Machine Learning (ML): predicting customer behaviors
+* Machine Learning (ML): recommender systems
 * Conversational UIs (CUI / Bots): trust, and transparency to drive sales
 * Third-Party Integration: trading CAPEX, for OPEX
 * SOLID principles, and code composition
@@ -23,7 +23,7 @@ In order to participate in this course, you need a laptop, and you must bring yo
 * Server, and web client application frameworks
 * Test Driven Development (TDD) and Behavior Driven Development (BDD)
 * Specifications/requirements
-* RDBMS & No-SQL
+* RDBMS & No-SQL (optional, not in-depth)
 * Programming in JavaScript (optional, not in-depth)
 
 ## Learning objectives
@@ -38,7 +38,7 @@ After completing this course, you should be able to:
 * Write unit tests to assess code
 * Write functionality that satisfies unit tests
 * Participate in source code management
-* Read, write and design to user stories
+* Read, write and design to user stories or other relevant specifications
 
 Depending on which project you embark on, you should be able to:
 
@@ -53,7 +53,7 @@ Depending on which project you embark on, you should be able to:
 
 ## Prerequisites
 
-Proficiency with at least one modern programming language (i.e. JavaScript / Python / Go / C# / Java) and modern programming concepts
+Proficiency with at least one modern programming language (i.e. JavaScript / Python / Go / C# / Java) and modern programming concepts.
 
 ## Grading Rubric
 | Percent | Component |
@@ -84,11 +84,11 @@ In order to participate in this course, you need a laptop, and you must bring yo
 
 The participation grade will include some in-class discussions. Make sure I know ahead of time if you are not able to attend class.
 
-I expect you to establish a professional relationship with each other, and with me. That means clear communication, and at times, negotiation. In the marketplace, communications skills are among the most desirable assets that hiring managers look for. Take the opportunity to practice the following skills:
+I expect you to establish a professional relationship with each other, and with me. That means clear communication, and at times, negotiation. In the marketplace, communications skills are among the most desirable qualities that hiring managers look for. Take the opportunity to practice the following skills:
 
 * **Listen** and communicate your comprehension.
 * **Question** and attempt to reduce ambiguity. Be honest and open about what you don’t understand.
-* **Criticize** and argue _constructively_.
+* **Criticize** and argue _respectfully_, and _constructively_.
 * **Venture** and be resourceful. Back your statements with fact and research based evidence.
 * **Calculate** and be diplomatic: disagree respectfully; think about what you are saying; be concise and try not to waste other’s time.
 
