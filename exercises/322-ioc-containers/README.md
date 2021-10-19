@@ -26,7 +26,7 @@ Set the name to, "data". Set the factory to the current export.
 
 ### Refactor the Composition Root
 
-> NOTE It might be helpful to refer to [hilary documentation](https://github.com/losandes/hilaryjs/blob/master/docs/Getting-Started---With-Node.md) for this section
+> NOTE It might be helpful to refer to [hilary documentation](https://github.com/losandes/hilaryjs/blob/main/docs/Getting-Started---With-Node.md) for this section
 
 1. At the top of `app.js`, create a hilary scope: `const scope = require('hilary').scope('myApp');`.
 2. Below that, use hilary's `bootstrap` feature to start your app: ` scope.bootstrap([], (err, scope) => {})`.
@@ -58,6 +58,6 @@ const resolved = {};
 3. Now follow Step 1 of the _Poor Man's DI_ exercise, except instead of setting each module to a variable, just add the value of `require` to `factories` (i.e. `const factories = [require('./data'), ...]`
 4. Add an http module to `factories` (i.e. `factories.push({ name: 'http', factory: require('http') })`
 5. Add the port module to `factories` (i.e. `factories.push({ name: 'port', factory: 3000 })`
-6. Write a function that lists the argument names of a given function (hint: You can find an example in [polyn](https://github.com/losandes/polyn/blob/master/src/objectHelper.js#L167) (Read step 7 before writing this)
+6. Write a function that lists the argument names of a given function (hint: You can find an example in [polyn](https://github.com/losandes/polyn/blob/main/src/objectHelper.js#L167) (Read step 7 before writing this)
 7. Enumerate the `factories`. For each, if the `factory` is a function that accepts arguments, and the `dependencies` are not defined (remember `false` is defined), add a `dependencies` array, with the argument names as it's values. (Alternatively, modify each module that accepts arguments and doesn't have `dependencies: false`, adding the dependencies arrays by hand). Place the resulting object on `container`, by name (i.e. `container[item.name] = item`)
 8. Write a function that enumerates the objects on `container`, and executes the factory for each module. If the module has dependencies, make sure you resolve those dependencies, and `apply` them to the factory that is being executed.
