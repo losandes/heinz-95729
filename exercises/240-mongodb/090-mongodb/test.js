@@ -1,22 +1,24 @@
-const { factories } = require('../test-helpers')
-const books = {
-    book1: { title: 'The Two Cultures and the Scientific Revolution' }
-}
-
 module.exports = (test, dependencies) => test('240-090-mongodb', {
-    given: () => require('./exercise'),
-    'when a single document is removed': {
-        when: ({ deleteDocument }) => {
-            const insert = factories.insert(dependencies.db.books())
-            const exercise = factories.exercise(dependencies.db.db())
+    given: () => {
+        const { deleteDocument } = require('./exercise')
+        const books = {
+            book1: { title: 'The Two Cultures and the Scientific Revolution' }
+        }
 
-            return insert([books.book1])
-                .then(() => exercise(deleteDocument))
+        return { deleteDocument, books }
+    },
+    'when a single document is removed': {
+        when: async ({ deleteDocument, books }) => {
+            await dependencies.db.books().insertMany([books.book1])
+            const actual = await deleteDocument(dependencies.db.db())
+
+            return { actual, books }
         },
-        'it should delete 1 document': (t) => (err, results) => {
-            t.ifError(err);
-            t.equal(typeof results, 'object', 'it should return results');
-            t.equal(results.deletedCount, 1, 'it should delete 1 document');
+        'it should delete 1 document': (t) => (err, result) => {
+            t.ifError(err)
+            const { actual } = result
+            t.equal(typeof actual, 'object', 'it should return results')
+            t.equal(actual.deletedCount, 1, 'it should delete 1 document')
         }
     }
-});
+})

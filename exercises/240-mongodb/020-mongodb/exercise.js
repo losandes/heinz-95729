@@ -1,6 +1,6 @@
 'use strict';
 
-function insertDocuments(db, callback) {
+async function insertDocuments (db, titles) {
     // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     // TODO: Refactor this code to insert documents into the 'books'
     // collection. Each book should have a `title` property.
@@ -8,8 +8,10 @@ function insertDocuments(db, callback) {
     // 'Dependency Injection in .NET'
     // 'The Hitchhiker\'s Guide to the Galaxy'
     // 'The Restaurant at the End of the Universe'
+    // NOTE: the titles argument is an array of these titles
+    // Don't forget to return the results
 
-    callback(new Error('I didn\'t complete this exercise yet'));
+    throw new Error('I didn\'t complete this exercise yet')
 
     // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 }

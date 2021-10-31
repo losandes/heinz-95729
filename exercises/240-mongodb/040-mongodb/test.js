@@ -1,26 +1,24 @@
-const books = {
-  one: { 'title': 'The Dutch House' }
-}
-
 module.exports = (test, dependencies) => test('240-040-mongodb', {
-    given: () => require('./exercise'),
-    'when a single document is retrieved': {
-        when: ({ getDocument }) => new Promise((resolve, reject) => {
-            dependencies.db.books().insertMany([books.one], (err) => {
-                if (err) {
-                    return reject(err);
-                }
+    given: () => {
+        const { getDocument } = require('./exercise')
+        const books = {
+            one: { 'title': 'The Dutch House' }
+        }
 
-                getDocument(dependencies.db.db(), (err, result) => {
-                    if (err) reject(err)
-                    else resolve(result)
-                });
-            }); // /insertMany
-        }),
-        'it should be presented as the 2nd argument': (t) => (err, doc) => {
-            t.ifError(err); // throws if err exists
-            t.equal(typeof doc, 'object', 'it should return a document');
-            t.equal(doc.title, books.one.title, `it should return the ${books.one.title} book`);
+        return { getDocument, books }
+    },
+    'when a single document is retrieved': {
+        when: async ({ getDocument, books }) => {
+            await dependencies.db.books().insertMany([books.one])
+            const actual = await getDocument(dependencies.db.db())
+
+            return { actual, books }
+        },
+        'it should be presented as the 2nd argument': (t) => (err, result) => {
+            t.ifError(err) // throws if err exists
+            const { actual, books } = result
+            t.equal(typeof actual, 'object', 'it should return a document')
+            t.equal(actual.title, books.one.title, `it should return the ${books.one.title} book`)
         }
     }
-});
+})

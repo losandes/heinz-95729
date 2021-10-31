@@ -1,13 +1,14 @@
 'use strict';
 
-function listDocuments(db, callback) {
+function listDocuments(db) {
     // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     // TODO: Refactor this code to list all of the documents
     // in the 'books' collection
+    // Don't forget to return the results
 
-    callback(new Error('I didn\'t complete this exercise yet'));
+    throw new Error('I didn\'t complete this exercise yet')
 
     // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 }
 
-module.exports = { listDocuments };
+module.exports = { listDocuments }

@@ -1,14 +1,15 @@
 'use strict';
 
-const updateDocuments = (db) => (callback) => {
+const updateDocuments = async (db) => {
     // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     // TODO: Refactor this code to update all of the documents
     // in the 'books' collection. Add the property, `type`,
     // and set all of their types to 'BOOK'.
+    // Don't forget to return the results
 
-    callback(new Error('I didn\'t complete this exercise yet'));
+    throw new new Error('I didn\'t complete this exercise yet')
 
-    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 }
 
-module.exports = { updateDocuments };
+module.exports = { updateDocuments }
