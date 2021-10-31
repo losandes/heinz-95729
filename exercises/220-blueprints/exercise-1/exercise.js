@@ -1,53 +1,50 @@
-'use strict';
+'use strict'
 
-const { blueprint } = require('@polyn/blueprint');
+const { blueprint } = require('@polyn/blueprint')
 
-var bookBlueprint,
-    Book;
-
-bookBlueprint = blueprint('BookBlueprint', {
-    title: 'string',
-    author: 'string',
-    price: 'decimal:2',
-    active: 'boolean',
-    custom: ({ key, value, input, root }) => {
-      if (value !== 42) {
-        throw new Error('custom must be 42')
-      }
-
-      return { value }
-    }
-});
-
-Book = function (book) {
-    const validation = bookBlueprint.validate(book)
-
-    if (validation.err) {
-      throw validation.err;
+const bookBlueprint = blueprint('BookBlueprint', {
+  title: 'string',
+  author: 'string',
+  price: 'decimal:2',
+  active: 'boolean',
+  custom: ({ key, value, input, root }) => {
+    if (value !== 42) {
+      throw new Error('custom must be 42')
     }
 
-    const _book = validation.value;
+    return { value }
+  },
+})
 
-    const title = _book.title;
-    const author = _book.author;
-    const price = _book.price;
-    const active = _book.active;
-    const custom = _book.custom;
+const Book = function (book) {
+  const validation = bookBlueprint.validate(book)
 
-    return { title, author, price, active, custom };
-};
+  if (validation.err) {
+    throw validation.err
+  }
+
+  const _book = validation.value
+
+  const title = _book.title
+  const author = _book.author
+  const price = _book.price
+  const active = _book.active
+  const custom = _book.custom
+
+  return { title, author, price, active, custom }
+}
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // TODO: Refactor this constructor to get the test to pass
 
 module.exports = {
-    actual: () => new Book({
-        title: 42,
-        author: 42,
-        price: 'fail',
-        active: 'fail',
-        custom: 44
-    })
-};
+  actual: () => new Book({
+    title: 42,
+    author: 42,
+    price: 'fail',
+    active: 'fail',
+    custom: 44,
+  }),
+}
 
 // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -1,13 +1,13 @@
 module.exports = function Product (product) {
-    'use strict';
+  'use strict'
 
-    product = Object.assign({}, product);
+  product = Object.assign({}, product)
 
-    return {
-        id: product.id,
-        name: product.name,
-        description: product.description,
-        price: product.price,
-        quantity: product.quantity
-    };
-};
+  return {
+    id: product.id,
+    name: product.name,
+    description: product.description,
+    price: product.price,
+    quantity: product.quantity,
+  }
+}

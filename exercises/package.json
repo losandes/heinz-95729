@@ -11,7 +11,9 @@
     "test:200": "node index.js -o deterministic -m '2\\d0'",
     "debug:200": "node inspect index.js -o deterministic -m '2\\d0'",
     "test:300": "node index.js -o deterministic -m '3\\d0'",
-    "debug:300": "node inspect index.js -o deterministic -m '3\\d0'"
+    "debug:300": "node inspect index.js -o deterministic -m '3\\d0'",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "author": "Andy Wright <andes.collab@gmail.com> (https://github.com/losandes)",
   "license": "MIT",

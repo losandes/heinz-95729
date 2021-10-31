@@ -1,41 +1,41 @@
-'use strict';
+'use strict'
 
 function Product (product) {
-    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    // TODO: use Object.assign or spread syntax to ensure that `product` has a value
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // TODO: use Object.assign or spread syntax to ensure that `product` has a value
 
-    throw new Error('I didn\'t complete this exercise yet');
-    product = product || {};
+  throw new Error('I didn\'t complete this exercise yet')
+  product = product || {}
 
-    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-    product.color = product.color || 'green';
-    product.name = product.name;
+  product.color = product.color || 'green'
+  product.name = product.name || 'green'
 
-    return arguments;
+  return arguments
 }
 
 function ComplexProduct (product) {
-    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    // TODO: use spread/Object.assign, JSON.parse and JSON.stringify to ensure that
-    // `product` has a value. Remember to account for the fact that
-    // `product` could be null or undefined
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // TODO: use spread/Object.assign, JSON.parse and JSON.stringify to ensure that
+  // `product` has a value. Remember to account for the fact that
+  // `product` could be null or undefined
 
-    throw new Error('I didn\'t complete this exercise yet');
-    product = product || {};
+  throw new Error('I didn\'t complete this exercise yet')
+  product = product || {}
 
-    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-    product.color = product.color || 'green';
-    product.name = product.name;
-    product.metadata = product.metadata || {};
-    product.metadata.availableColors = product.metadata.availableColors || [];
-    product.metadata.availableColors.push('red');
-    product.metadata.availableColors.push('green');
-    product.metadata.availableColors.push('blue');
-    product.metadata.availableColors.push('yellow');
+  product.color = product.color || 'green'
+  product.name = product.name || 'green'
+  product.metadata = product.metadata || {}
+  product.metadata.availableColors = product.metadata.availableColors || []
+  product.metadata.availableColors.push('red')
+  product.metadata.availableColors.push('green')
+  product.metadata.availableColors.push('blue')
+  product.metadata.availableColors.push('yellow')
 
-    return arguments;
+  return arguments
 }
 
-module.exports = { Product, ComplexProduct };
+module.exports = { Product, ComplexProduct }
