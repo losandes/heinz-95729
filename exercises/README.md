@@ -1,19 +1,61 @@
-Heinz 95729 E-Commerce Tech Exercises
-=====================================
+# Heinz 95729 E-Commerce Tech Exercises
 
-To get started with the exercises, clone this repository. Several tests require other libraries to work. Before running these exercises, navigate to this directory in a terminal, and run the following to get the dependencies:
+To get started with the exercises, clone this repository. Several tests require other libraries to work. Before running these exercises, navigate to this directory in a terminal, and run the following to get the dependencies.
 
+> NOTE: regardless of which operating system you use, these instructions
+> assume you're using a shell derived from bash, such as https://ohmyz.sh/.
+
+## Macos or Linux
+
+```Shell
+# these instructions use HomeBrew: https://brew.sh/
+# Alternatively you can follow the nvm install instructions
+# https://github.com/nvm-sh/nvm#installing-and-updating
+$ brew update
+
+# install NodeJS Version Manager if you don't already have it
+$ brew install nvm
+$ source $(brew --prefix nvm)/nvm.sh
+# install node LTE 16.3.0
+$ nvm install 16.3.0
+# Use it
+$ nvm use 16.3.0
+# And set it as your default (optional)
+$ nvm alias default 16.3.0
+
+# Install pnpm (pnpm is more reliable, efficient, and secure than npm)
+$ npm install -g pnpm
+$ pnpm install
 ```
-$ npm install
+
+## Windows
+
+[Install NVM](https://github.com/nvm-sh/nvm#installing-and-updating). Then in a bash derived shell, use NVM to install a version of NodeJS, and then install pnpm.
+
+```Shell
+# install node LTE 16.3.0
+$ nvm install 16.3.0
+# Use it
+$ nvm use 16.3.0
+# And set it as your default (optional)
+$ nvm alias default 16.3.0
+
+# Install pnpm (pnpm is more reliable, efficient, and secure than npm)
+$ npm install -g pnpm
+$ pnpm install
 ```
 
-### Running the Exercises
+## Installing MongoDB
 
-You can run the exercises from this directory using `npm`:
+Before you start working on the mongodb exercises (240), you'll need to install MongoDB. Instructions are in [240-mongodb](240-mongodb/README.md).
+
+## Running the Exercises
+
+You can run the exercises from this directory using `pnpm`:
 
 ```Shell
 # Run all exercises
-$ npm test
+$ pnpm test
 
 # OR
 $ node index -o deterministic
@@ -40,7 +82,7 @@ You can run the exercises in debug mode, by using `debug` instead of `test`:
 
 ```Shell
 # Run all exercises
-$ npm run debug
+$ pnpm run debug
 
 # OR
 $ node inspect index -o deterministic

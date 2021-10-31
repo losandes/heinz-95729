@@ -1,8 +1,8 @@
-const Server = require('./Server');
+const Server = require('./Server')
 
 module.exports = {
-    server: new Server(),
-    port: undefined,
-    db: undefined,
-    logger: undefined
-};
+  server: new Server(),
+  port: undefined,
+  db: undefined,
+  logger: undefined,
+}

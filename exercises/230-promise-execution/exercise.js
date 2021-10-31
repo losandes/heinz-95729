@@ -1,61 +1,61 @@
-'use strict';
+'use strict'
 
 function Builder () {
-    var output = {
-        name: null,
-        description: null
-    };
+  const output = {
+    name: null,
+    description: null,
+  }
 
-    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    // TODO: refactor builder to an empty object, and return
-    // this Promise from a function called `builder.build` instead
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // TODO: refactor builder to an empty object, and return
+  // this Promise from a function called `builder.build` instead
 
-    var builder = new Promise((resolve) => {
-        resolve(Object.assign({}, output));
-    });
+  const builder = new Promise((resolve) => {
+    resolve(Object.assign({}, output))
+  })
 
-    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-    builder.name = (name) => {
-        output.name = name;
-        return builder;
-    };
+  builder.name = (name) => {
+    output.name = name
+    return builder
+  }
 
-    builder.description = (description) => {
-        output.description = description;
-        return builder;
-    };
+  builder.description = (description) => {
+    output.description = description
+    return builder
+  }
 
-    return builder;
+  return builder
 }
 
 function AsyncBuilder () {
-    var output = {
-        name: null,
-        description: null
-    };
+  const output = {
+    name: null,
+    description: null,
+  }
 
-    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    // TODO: refactor builder to an empty object, and return
-    // this Promise from a function called `builder.build` instead
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // TODO: refactor builder to an empty object, and return
+  // this Promise from a function called `builder.build` instead
 
-    var builder = new Promise((resolve) => {
-        setTimeout(() => { resolve(Object.assign({}, output)); }, 0);
-    });
+  const builder = new Promise((resolve) => {
+    setTimeout(() => { resolve(Object.assign({}, output)) }, 0)
+  })
 
-    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-    builder.name = (name) => {
-        output.name = name;
-        return builder;
-    };
+  builder.name = (name) => {
+    output.name = name
+    return builder
+  }
 
-    builder.description = (description) => {
-        output.description = description;
-        return builder;
-    };
+  builder.description = (description) => {
+    output.description = description
+    return builder
+  }
 
-    return builder;
+  return builder
 }
 
 module.exports = {
@@ -66,8 +66,8 @@ module.exports = {
     // TODO: call `build` after calling `description`
 
     return new Builder()
-        .name(name)
-        .description(description);
+      .name(name)
+      .description(description)
 
     // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   },
@@ -76,9 +76,9 @@ module.exports = {
     // TODO: call `build` after calling `description`
 
     return new AsyncBuilder()
-        .name(name)
-        .description(description);
+      .name(name)
+      .description(description)
 
     // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-  }
+  },
 }

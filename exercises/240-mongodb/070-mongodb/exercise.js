@@ -1,13 +1,14 @@
-'use strict';
+'use strict'
 
-const findDocuments = (db) => (callback) => {
-    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    // TODO: Refactor this code to get documents, where the
-    // price is greater than 10.
+const findDocuments = async (db) => {
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // TODO: Refactor this code to get documents, where the
+  // price is greater than 10.
+  // Don't forget to return the results
 
-    callback(new Error('I didn\'t complete this exercise yet'));
+  throw new Error('I didn\'t complete this exercise yet')
 
-    // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // END TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 }
 
-module.exports = { findDocuments };
+module.exports = { findDocuments }

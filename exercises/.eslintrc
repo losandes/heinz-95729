@@ -1,0 +1,9 @@
+{
+    "extends": ["standard"],
+    "rules": {
+        "no-unused-expressions": "off",
+        "comma-dangle": ["error", "always-multiline"],
+        "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+        "no-console": "error"
+    }
+}
