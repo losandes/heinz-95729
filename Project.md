@@ -1,6 +1,5 @@
 To explore the topics in this course, you will apply what you are learning in either a team, or solo project.
 
-
 ## Objectives
 
 - Gather requirements from the client (professor)
@@ -14,6 +13,8 @@ To explore the topics in this course, you will apply what you are learning in ei
 - Submit peer evaluations
 
 ## The Ask (examples)
+
+There are project starter kits for some of the examples below in https://github.com/losandes/heinz-95729-project.
 
 ### APIs, Web UX, and Integration
 
