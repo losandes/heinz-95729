@@ -45,10 +45,6 @@ $ npm install -g pnpm
 $ pnpm install
 ```
 
-## Installing MongoDB
-
-Before you start working on the mongodb exercises (240), you'll need to install MongoDB. Instructions are in [240-mongodb](240-mongodb/README.md).
-
 ## Running the Exercises
 
 You can run the exercises from this directory using `pnpm`:
