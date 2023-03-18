@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "@polyn/blueprint": "~2.6.0",
-    "@polyn/immutable": "~1.0.11",
+    "@polyn/immutable": "~1.1.2",
     "async": "~3.2.4",
     "chalk": "~2.4.2",
     "hilary": "~5.2.0",
