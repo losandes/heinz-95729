@@ -2,54 +2,50 @@
 
 ## Course Description
 
-In an age of ever-accelerating change, what will come next in e-commerce? What stable foundations will continue to be of value?
+In an age of ever-accelerating change, perhaps our greatest asset is our curiosity... a desire and self-guided ability to learn. Do you learn best through practice?
 
-In E-Commerce Tech, you will learn about software engineering design principles, and patterns for leveraging technology through the lens of e-commerce. We will explore how Artificial Intelligence (AI), Machine Learning (ML), and Conversational User Interfaces (CUI) are used at the intersection of technology, and microeconomics.
-
-To explore these topics, you will apply what you are learning, choosing from an array of team and solo projects that cover third-party integration, user experience (UX), servers and APIs, data querying and analytics, machine learning, conversational bots, and user engagement.
+In E-Commerce Tech, you will apply emerging technologies to human needs right now. We begin by exploring a breadth of opportunities to build a shared context of what we might explore together. By the end of week three, you will choose a focus area and join a team to dive deeper by integrating Artificial Intelligence (AI), Machine Learning (ML), or Conversational User Interfaces (CUI) with modern app development practices.
 
 In order to participate in this course, you need a laptop, and you must bring your laptop to each class/lab.
 
+
 ## Topical Outline
 
-* Artificial Intelligence (AI) in e-commerce
-* Machine Learning (ML): recommender systems
-* Conversational UIs (CUI / Bots): trust, and transparency to drive sales
-* Third-Party Integration: trading CAPEX, for OPEX
-* SOLID principles, and code composition
-* Design Patterns (MVC, MVVM, Repository, Factory)
-* APIs, and server frameworks
-* User Experience (UX), and client application frameworks
-* Server, and web client application frameworks
-* Test Driven Development (TDD) and Behavior Driven Development (BDD)
-* Specifications/requirements
-* RDBMS & No-SQL (optional, not in-depth)
-* Programming in JavaScript (optional, not in-depth)
+-   Artificial Intelligence (AI)
+    -   Generative AI: Chat & Diffusion
+    -   Composite AI / Multiagent Systems: personalize and act on user input
+    -   Machine Learning (ML): recommender systems
+    -   Conversational UIs (CUI / Bots): trust, and transparency to drive sales
+-   Product Development
+    -   Planning & Design
+    -   Principles, Patterns, & Practices
+    -   Third-Party Integration: trading CAPEX, for OPEX
+    -   APIs / server frameworks
+    -   Multi-Page Applications (Web MPAs)
 
 ## Learning objectives
 After completing this course, you should be able to:
 
-* Explain how machine learning can be used to suggest goods and products
-* Explain how NLU can be used to understand speech, and written text
-* Describe and demonstrate the SOLID principles
-* Describe and implement several common design patterns (MVC, MVVM, Repository, Factory)
-* List several forms of software testing
-* Describe Test Driven Development (TDD) and Behavior Driven Development (BDD)
-* Write unit tests to assess code
-* Write functionality that satisfies unit tests
-* Participate in source code management
-* Read, write and design to user stories or other relevant specifications
+-   Explain how machine learning can be used to suggest goods and products
+-   Explain how NLU can be used to understand speech, and written text
+-   Describe and demonstrate the SOLID principles
+-   Describe and implement several common design patterns (MVC, MVVM, Repository, Factory)
+-   Communicate objectives and designs to stakeholders
+-   Write software that satisfies those objectives
+-   Participate in source code management
+-   Read, write and design to objectives or other relevant specifications
 
 Depending on which project you embark on, you should be able to:
 
-* Leverage an ML algorithm that reveals frequent patterns in user behavior
-* Compare algorithms for finding frequent patterns in user behavior
-* Convert speech, or text to intent, entities, and actions
-* Describe and implement Dependency Injection, using an Inversion of Control container and a Composition Root
-* Leverage a server-side web application framework
-* Leverage a client-side JavaScript framework
-* Compose the user experience, using templates and data-binding
-
+-   Combine Goal-Based Dialog Agents with Large Language Models (LLMs) to produce a Multi-agent system that can act on user desires
+-   Enhance an LLM using RAG to help talk about private information or topics
+-   Integrate with real-world platforms and services to deliver bots or make payments
+-   Leverage ML algorithms that reveal frequent patterns in user behavior and make recommendations based on those patterns
+-   Compare algorithms for finding frequent patterns in user behavior
+-   Validate or falsify hypothesis through technical proofs of concept
+-   Convert speech, or text to intent, entities, and actions
+-   Contribute to a server-side web application framework to deliver new features
+-   Contribute to a client-side web Multi-Page Application (MPA) to deliver new features
 
 ## Prerequisites
 
@@ -106,3 +102,31 @@ This course defines cheating as the verbal, written, printed or digital communic
 It is common in the software industry to share code. The open-source community is built on just that. Our own code will be hosted as open-source in Github, so we can see each other's work. While sharing is good and fine, we must remember to cite our resources. In this course, all borrowed code must be preceded with a comment that cites the author and the url source. Failure to do so will result in docked points. Failure to cite code that is borrowed from another student in this course counts as cheating. Also, be mindful not to borrow too much, as it will also negatively impact your grade.
 
 Leveraging another's code as inspiration for your own does not always require citing. For this course, you do not need to cite a source if you changed more than 30% of the code.
+
+## Can I use Generative AI, such as Chat GPT, in this Course?
+
+### In Limited Cases, Yes
+
+Within this class, there are situations and contexts where you will be required to use AI programs such as ChatGPT, DALL-E and others. Outside of these specific guided activities, you will not be permitted to use AI tools for any reason.
+
+### Learning Generative AI Is an Important Skill, you may use it to:
+
+-   Brainstorm new ideas
+-   Improve your grammar
+-   Improve the quality of your work by generating suggestions, such as comments and tests
+-   As part of your course project deliverables (e.g. integration with Generative AI)
+
+### You may NOT use Generate AI:
+
+-   To generate your responses to graded discussions
+-   On the Final Exam
+
+### Academic Integrity Violation
+
+Using ChatGPT or other generative AI outside of these specific guided activities or to generate any other course content will be considered an academic integrity violation.
+
+### Ask before using AI
+
+If you are uncertain about whether or not you are allowed to use AI, ASK FIRST.
+
+If you are uncertain about whether or not a particular technique of using AI is allowed, ASK FIRST.
