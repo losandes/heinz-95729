@@ -15,34 +15,42 @@ To explore the topics in this course, you will apply what you are learning in ei
 
 There are project starter kits for some of the examples below in https://github.com/losandes/heinz-95729-project.
 
+
 ### Generate AI: Large Language Models (e.g. ChatGPT)
 
--   Multi-Agent AI: combine Goal-Based Dialog Agent(s) with an LLM to produce natural language interactions with a chat bot that can act on your wishes. The agent will integrate with a 3rd party API to achieve this result. For instance, the agent might interact with a payment service or a delivery service to complete a purchase of some kind.
+-   Multi-Agent System Development: Combining Goal-Based Dialog Agents with LLMs
+    -   Combine Goal-Based Dialog Agents with Large Language Models (LLMs) to develop a multi-agent system capable of addressing user requests and intentions. The agent should integrate with a 3rd party API to achieve this result. For instance, the agent might interact with a payment gateway or a delivery service to complete a purchase of some kind.
 
--   Composite AI: Build a chat bot that uses Retrieval Augmented Chat Generation (RAG) to produce conversations that you can prove are unique to your chat bot. Such an AI might offer insights on private data, such as in an enterprise, or in your personal life.
+-   Composite AI, Security & Privacy Enhancement: Using RAG to enable secure conversations
+    -   Enhance an LLM using Retrieval-Augmented Generation (RAG) to enable private and secure conversations about sensitive topics (e.g. confidential enterprise data, personal coaching).
 
 ### CUI In Slack, With Alexa, etc.
 
--   Build a bot for Slack, or skills for Alexa to support an interactive shopping experience using the [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2) or [another public dataset for recommender systems](https://github.com/caserec/Datasets-for-Recommender-Systems). A working app should let me add and remove items from a shopping cart. It should also let me check the prices of items, and checkout to make a purchase (checkout using Stripe integration with the terminal may or may not be required depending on team size).
+-   Speech and Text Processing: Converting language into intent and actionable steps
+    -   Build a bot for Slack, or skills for Alexa to support an interactive shopping experience using the [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2) or [another public dataset for recommender systems](https://github.com/caserec/Datasets-for-Recommender-Systems). A working app should let me add and remove items from a shopping cart. It should also let me check the prices of items, and checkout to make a purchase (checkout using Stripe integration with the terminal may or may not be required depending on team size).
 
 ### Machine Learning
 
--   Recommender Systems: Using [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2) or [another public dataset for recommender systems](https://github.com/caserec/Datasets-for-Recommender-Systems) prepare the data so it can be used to suggest, or upsell other products to consumers. Demonstrate the efficacy of at least 3 algorithms, selecting from Content-Based Filtering (Classification), Collaborative Filtering (Nearest Neighbor, Matrix Factorization, Restricted Boltzmann Machines), and/or Association Analysis (Apriori, FP Growth). How do different techniques effect the user experience? How might we balance different consumer desires, such as unfiltered exploration, and filtered suggestions? If you explore FP-Growth, how should we determine the thresholds to tune the FP-Growth algorithm? You may suggest other algorithms, or other ways to explore ML when negotiating the scope of your project.
+-   Behavioral Analysis and Recommendations: Utilizing ML for pattern recognition and personalized recommendations
+    -   Using [data that was open-sourced by Instacart](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2) or [another public dataset for recommender systems](https://github.com/caserec/Datasets-for-Recommender-Systems) prepare the data so it can be used to suggest, or upsell other products to consumers. Demonstrate the efficacy of at least 3 algorithms, selecting from Content-Based Filtering (Classification), Collaborative Filtering (Nearest Neighbor, Matrix Factorization, Restricted Boltzmann Machines), and/or Association Analysis (Apriori, FP Growth). How do different techniques effect the user experience? How might we balance different consumer desires, such as unfiltered exploration, and filtered suggestions? If you explore FP-Growth, how should we determine the thresholds to tune the FP-Growth algorithm? You may suggest other algorithms, or other ways to explore ML when negotiating the scope of your project.
 
-### Multi-page E-Commerce Site
+### Multi-page E-Commerce Site (Platform App Development)
 
--   Using either Astro (NodeJS) or Fresh (Deno), build a complete, Multi-Page E-Commerce App that sells goods by integrating with Shopify. Top scores require that your app achieves a 100 [Lighthouse performance score](https://developer.chrome.com/en/docs/lighthouse/performance/performance-scoring/).
+-   Multi-Page Applications (MPAs): Achieving a 100 Lighthouse performance score for an E-Commerce app
+    -   Using either Astro (NodeJS) or Fresh (Deno), build a complete, Multi-Page E-Commerce App that sells goods by integrating with Shopify. Top scores require that your app achieves a 100 [Lighthouse performance score](https://developer.chrome.com/en/docs/lighthouse/performance/performance-scoring/).
 
-### APIs, Web UX, and Integration (Custom App)
+### Real-World Integration (Custom App Development)
 
--   Our book store has no shopping cart! We need a way for people to buy books, and we also want to persist a person’s cart beyond the current session. Add shopping cart functionality to the app.
--   We have no way to checkout, and make purchases. Integrate with [Stripe](https://stripe.com/docs/api#intro) to facilitate checkout.
--   We have no way for user's to see their previous orders. Add order history to the app.
+-   Integrating AI solutions with real-world platforms
+    -   Our book store has no shopping cart! We need a way for people to buy books, and we also want to persist a person’s cart beyond the current session. Add shopping cart functionality to the app.
+    -   We have no way to checkout, and make purchases. Integrate with [Stripe](https://stripe.com/docs/api#intro) to facilitate checkout.
+    -   We have no way for user's to see their previous orders. Add order history to the app.
 
 
-### Causal AI
+### Causal AI (Research)
 
--   Discover data and algorithms to predict the likelihood of disease in a population
+-   Algorithm Comparison: Evaluating the strengths and weaknesses of different algorithms; Technical Proof of Concept: Validating hypotheses through technical proofs of concept
+    -   Discover data and algorithms to predict the likelihood of disease in a population
 
 ### Your Idea Here
 

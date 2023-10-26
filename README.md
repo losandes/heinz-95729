@@ -4,48 +4,144 @@
 
 In an age of ever-accelerating change, perhaps our greatest asset is our curiosity... a desire and self-guided ability to learn. Do you learn best through practice?
 
-In E-Commerce Tech, you will apply emerging technologies to human needs right now. We begin by exploring a breadth of opportunities to build a shared context of what we might explore together. By the end of week three, you will choose a focus area and join a team to dive deeper by integrating Artificial Intelligence (AI), Machine Learning (ML), or Conversational User Interfaces (CUI) with modern app development practices.
+In E-Commerce Tech, you will apply emerging technologies to human needs right now. We begin by exploring a breadth of opportunities to build a shared context of what we might explore together. By the end of week three, you will choose a focus area and join a team to design and deliver a product that integrates Artificial Intelligence (AI), Machine Learning (ML), or Conversational User Interfaces (CUI) into a modern (web / slack / mobile) app.
 
 In order to participate in this course, you need a laptop, and you must bring your laptop to each class/lab.
 
 
 ## Topical Outline
 
--   Artificial Intelligence (AI)
-    -   Generative AI: Chat & Diffusion
-    -   Composite AI / Multiagent Systems: personalize and act on user input
-    -   Machine Learning (ML): recommender systems
-    -   Conversational UIs (CUI / Bots): trust, and transparency to drive sales
--   Product Development
-    -   Planning & Design
-    -   Principles, Patterns, & Practices
-    -   Third-Party Integration: trading CAPEX, for OPEX
-    -   APIs / server frameworks
-    -   Multi-Page Applications (Web MPAs)
+### Module 1: Breadth & Building Context (weeks 1 through 3)
 
-## Learning objectives
+-   **Artificial Intelligence (AI) Fundamentals**
+    -   Overview of AI: how might we anticipate what's next?
+    -   Types of AI: Generative AI, Composite AI, Machine Learning, etc.
+-   **Machine Learning in Web Development**
+    -   Using ML for recommender systems in e-commerce
+-   **Conversational User Interfaces (CUI) and Bots**
+    -   Personalization, and building trust and transparency to enhance sales
+-   **Discussions**
+    -   You will choose to participate in a subset of several graded, asynchronous discussions enrich our learning environment
+-   **Selecting a Focus Area (Week 4)**
+    -   At the end of week 3, we will participate in a workshop where you will choose a focus area for the 5-week team project
+
+### Module 2: Depth & Practice (weeks 4 through 8)
+
+-   **Planning and Design for AI-Driven Web Applications**
+    -   Effective planning and design strategies
+-   **Team Dynamics**
+    -   Techniques for distributing work while keeping order and perspective
+-   **Software Design Principles**
+    -   Introduction to SOLID principles
+    -   Implementing design patterns: MVC, MVVM, Repository, Factory
+-   **Focus Areas (one or some of, not all of):**
+    -   Multi-Agent System Development?: Combining Goal-Based Dialog Agents with LLMs
+    -   Privacy and Security Enhancement?: Using RAG to enable secure conversations
+    -   Real-World Integration?: Integrating AI solutions with real-world platforms
+    -   Behavioral Analysis and Recommendations?: Utilizing ML for pattern recognition and personalized recommendations
+    -   Algorithm Comparison?: Evaluating the strengths and weaknesses of different algorithms
+    -   Technical Proof of Concept?: Validating hypotheses through technical proofs of concept
+    -   Speech and Text Processing?: Converting language into intent and actionable steps
+    -   Multi-Page Applications (MPAs)?: Achieving a 100 Lighthouse performance score for an E-Commerce app
+-   **Projects Due (Week 8)**
+    -   Summative assessment of your team's ability
+-   **Course Final (Week 8)**
+    -   Summative assessment of your comprehension
+
+## Calendar
+
+-   w1-c1: Course Introduction
+-   w1-c2: AI Lesson
+
+-   w2-c1: CUI P1 Lesson
+-   w2-c2: CUI P2 Lesson
+
+-   w3-c1: ML Lesson; *Discussion Posts Due*
+-   w3-c2: Project Kickoff (*ATTENDANCE MANDATORY*)
+
+-   w4-c1: Project Scope Negotiation Lab (*ATTENDANCE MANDATORY*); *Discussion Comments Due*
+-   w4-c2: Design Lab (*Scope Due*; read about Planning Poker in #readings before attending)
+
+-   w5-c1: SOLID Lesson
+-   w5-c2: OFF/THANKSGIVING
+
+-   w6-c1: Project Lab
+-   w6-c2: Project Lab
+
+-   w7-c1: Project Lab
+-   w7-c2: Presentations (*ATTENDANCE MANDATORY*)
+
+-   w8: Projects due on Friday by EOD
+-   w8: Peer reviews due on Friday by EOD
+-   w8: Final Exam (details shared elsewhere)
+
+_wn-cn stands for week number, class number. For instance, w1-c1 means the first lesson of week 1._
+
+## Course Learning Objectives
+
 After completing this course, you should be able to:
 
--   Explain how machine learning can be used to suggest goods and products
--   Explain how NLU can be used to understand speech, and written text
--   Describe and demonstrate the SOLID principles
--   Describe and implement several common design patterns (MVC, MVVM, Repository, Factory)
--   Communicate objectives and designs to stakeholders
--   Write software that satisfies those objectives
--   Participate in source code management
--   Read, write and design to objectives or other relevant specifications
+#### AI and ML Fundamentals
 
-Depending on which project you embark on, you should be able to:
+   - Explain how machine learning can be used to provide product recommendations.
+   - Explain how Natural Language Understanding (NLU) is applied to comprehend speech and written text.
 
--   Combine Goal-Based Dialog Agents with Large Language Models (LLMs) to produce a Multi-agent system that can act on user desires
--   Enhance an LLM using RAG to help talk about private information or topics
--   Integrate with real-world platforms and services to deliver bots or make payments
--   Leverage ML algorithms that reveal frequent patterns in user behavior and make recommendations based on those patterns
--   Compare algorithms for finding frequent patterns in user behavior
--   Validate or falsify hypothesis through technical proofs of concept
--   Convert speech, or text to intent, entities, and actions
--   Contribute to a server-side web application framework to deliver new features
--   Contribute to a client-side web Multi-Page Application (MPA) to deliver new features
+#### Software Design Principles
+
+   - Describe and demonstrate the SOLID principles for robust software design.
+   - Describe and implement common design patterns such as MVC, MVVM, Repository, and Factory to create well-structured applications.
+
+#### Stakeholder Communication
+
+   - Effectively communicate project objectives and software designs to stakeholders.
+
+#### Software Development
+
+   - Write software that aligns with specified objectives and requirements.
+   - Participate in source code management practices.
+
+#### Adherence to Objectives
+
+   - Read, write, and design software in alignment with project objectives and relevant specifications.
+
+### Project-Based Learning Objectives
+
+Depending on the specific project you undertake, you should be able to:
+
+#### Multi-Agent Systems
+
+   - Combine Goal-Based Dialog Agents with Large Language Models (LLMs) to develop a multi-agent system capable of addressing user requests and intentions.
+
+#### Privacy and Security
+
+   - Enhance an LLM using Retrieval-Augmented Generation (RAG) to enable private and secure conversations about sensitive topics.
+
+#### Integration and Real-World Applications
+
+   - Integrate AI and ML solutions with real-world platforms and services, such as chatbots or payment gateways.
+
+#### Behavioral Analysis and Recommendations
+
+   - Utilize ML algorithms to identify patterns in user behavior and provide personalized recommendations based on these patterns.
+
+#### Algorithm Comparison
+
+   - Compare different algorithms for discovering frequent user behavior patterns, evaluating their strengths and weaknesses.
+
+#### Technical Proof of Concept
+
+   - Validate or refute hypotheses through the development of technical proofs of concept for proposed AI or ML solutions.
+
+#### Speech and Text Processing
+
+   - Convert spoken or written language into intent, entities, and actionable steps using NLU and other relevant techniques.
+
+#### Web Development Contributions
+
+   - Contribute to the development of server-side web application frameworks and client-side web Multi-Page Applications (MPAs) to introduce new features and functionalities.
+
+These objectives provide a comprehensive framework for students to gain a solid understanding of AI and ML concepts and practical skills in web development while aligning their work with real-world needs.
+
 
 ## Prerequisites
 
