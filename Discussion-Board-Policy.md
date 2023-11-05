@@ -1,3 +1,5 @@
+# Discussion Board Policy
+
 Online discussions provide a place to contemplate what we are learning in a public forum. Think of them as virtual hallways, where we can discuss topics, refine our knowledge and help each other gain a more comprehensive understanding of these topics.
 
 In the marketplace, communications skills are among the most desirable qualities that hiring managers look for. Take the opportunity to practice the following skills:
