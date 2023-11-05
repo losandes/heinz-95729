@@ -1,3 +1,5 @@
+# Course Project
+
 To explore the topics in this course, you will apply what you are learning in either a team, or solo project.
 
 ## Objectives
